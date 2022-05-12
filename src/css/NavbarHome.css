@@ -1,0 +1,41 @@
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  transform: translate(-25%);
+}
+.navbarMain {
+  transform: translateY(4.2vh);
+}
+@media screen and (max-width: 960px) {
+  .navItems {
+    transform: translateX(-5%);
+    
+  }
+  .navbarMain {
+    transform: translateY(2vh);
+  }
+
+  .navBrand {
+    transform: translateX(0%) !important;
+  }
+}
+
+.navBrand {
+  transform: translateX(36%);
+}
+
+.nav-toggle {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.navLink {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: black !important;
+}

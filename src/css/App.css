@@ -1,0 +1,82 @@
+* {
+  font-family: "Space Grotesk", "Roboto", sans-serif;
+}
+body {
+  background-color: red;
+}
+.HomePageContent {
+  position: relative;
+}
+.landingMainContent {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #efecff 0%, #c4b8ff 100%);
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.HomeMainContent {
+  position: relative;
+  top: 15vh;
+  text-align: center;
+  font-weight: 500;
+  font-size: 56px !important;
+  font-size: 4rem;
+  color: #000;
+}
+
+.smallText {
+  font-weight: 400;
+  font-size: 1.1rem;
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .smallText {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .HomeMainContent {
+    top: 15vh;
+  }
+}
+.JoinButton {
+  background-color: #000 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  position: relative;
+  top: 1.5vh;
+  border-radius: 0px !important;
+  width: 180px !important;
+  height: 5.5vh !important;
+}
+@media screen and (max-width: 560px) {
+  .JoinButton {
+    width: 350px !important;
+  }
+}
+.join-btn-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.HomeMainContentBackground {
+  width: 80vw;
+  height: 38vh;
+  background: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
