@@ -1,0 +1,21 @@
+.Comm-container{
+    width: 100%; 
+    background-color: aqua;
+    position: relative;
+    top: 32vh;
+    z-index: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .Comm-container{
+        width: 100%;
+        top: 34vh;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .Comm-container{
+        width: 100%;
+        top: 25vh;
+    }
+}
