@@ -24,7 +24,8 @@ const Home = () => {
     if (inputRef && inputRef.current && window.innerWidth >= 560) {
       setlength(
         ((window.innerHeight -
-          inputRef.current.getBoundingClientRect().bottom) *
+          inputRef.current.getBoundingClientRect().y +
+          inputRef.current.getBoundingClientRect().height) *
           100) /
           window.innerHeight -
           10
@@ -32,7 +33,8 @@ const Home = () => {
     } else if (inputRef && inputRef.current && window.innerWidth < 560) {
       setlength(
         ((window.innerHeight -
-          inputRef.current.getBoundingClientRect().bottom) *
+          inputRef.current.getBoundingClientRect().y +
+          inputRef.current.getBoundingClientRect().height) *
           100) /
           window.innerHeight -
           6
@@ -78,8 +80,18 @@ const Home = () => {
               className="mobileMockup-1"
             />
           </div>
-          {/* <img src={MobileMockupIconLeft} className="mobile-mockup-icon-left" alt="mobile-mockup" />
-          <img src={MobileMockupIconRight} alt="mobile-mockup" /> */}
+          <div className="mockup-icons">
+            <img
+              src={MobileMockupIconLeft}
+              className="mockup-icon-left"
+              alt="mobile-mockup"
+            />
+            <img
+              src={MobileMockupIconRight}
+              className="mockup-icon-right"
+              alt="mobile-mockup"
+            />
+          </div>
         </div>
       </div>
     </div>
