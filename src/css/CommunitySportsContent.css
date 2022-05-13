@@ -1,21 +1,77 @@
-.Comm-container{
-    width: 100%; 
-    background-color: aqua;
-    position: relative;
-    top: 32vh;
-    z-index: 0;
+.Comm-container {
+  width: 100%;
+  position: relative;
+  top: 32vh;
+  z-index: 0;
 }
 
 @media screen and (max-width: 960px) {
-    .Comm-container{
-        width: 100%;
-        top: 34vh;
-    }
+  .Comm-container {
+    width: 100%;
+    top: 34vh;
+  }
 }
 
 @media screen and (max-width: 560px) {
-    .Comm-container{
-        width: 100%;
-        top: 25vh;
-    }
+  .Comm-container {
+    width: 100%;
+    top: 25vh;
+  }
+}
+.JoinButton2 {
+  background-color: #000 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  width: 180px !important;
+  height: 6vh !important;
+}
+@media screen and (max-width: 560px) {
+  .JoinButton2 {
+    width: 100% !important;
+    position: relative;
+    
+  }
+}
+
+.com-sports-content {
+  padding-top: 172px;
+  padding-bottom: 172px;
+  
+}
+.com-sports-content h2 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61.5px;
+  max-width: 460px;
+  padding-bottom: 32px;
+  text-align: start;
+}
+.com-sports-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 48px;
+  text-align: start;
+}
+
+@media screen and (max-width: 560px) {
+  .com-sports-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .com-sports-content h2 {
+    font-size: 26px;
+    line-height: 31.2px;
+    max-width: 327px;
+    padding-bottom: 27px;
+  }
+  .com-sports-content p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 29px;
+  }
 }
