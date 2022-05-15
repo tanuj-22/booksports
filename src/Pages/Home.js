@@ -1,9 +1,8 @@
 import React from "react";
 import CommunitySportsContent from "../Components/CommunitySportsContent";
 import HomePageMainContent from "../Components/HomePageMainContent";
-
 import NavbarHome from "../Components/NavbarHome";
-
+import FooterHome from "../Components/FooterHome"
 
 
 const Home = () => {
@@ -15,8 +14,9 @@ const Home = () => {
       <div className="landingMainContent">&nbsp;</div>
       <NavbarHome />
       <HomePageMainContent/>
-      <CommunitySportsContent/>
+      {/* <CommunitySportsContent/> */}
       
+      <FooterHome></FooterHome>
     </div>
   );
 };
