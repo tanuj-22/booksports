@@ -1,0 +1,30 @@
+.communicate-and-lead{
+    background: white;
+}
+.communicate-and-lead .row{
+    padding-top: 10%;
+}
+.communicate-and-lead .communicate-left{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+}
+
+.communicate-and-lead .communicate-left img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.communicate-and-lead .communicate-right{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 62px;
+    color: #000000;
+}
+.communicate-and-lead .communicate-right img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
