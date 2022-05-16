@@ -4,8 +4,9 @@ import '../css/become-member.css';
 // import bootstrap
 import { Button } from 'react-bootstrap';
 
-// import logos
+// import assets
 import lightningLogo from '../assests/lightningLogo.svg';
+import designofeclipse from '../assests/designofeclipsses.svg';
 
 const BecomeMember = () => {
     return (
@@ -26,6 +27,9 @@ const BecomeMember = () => {
                         className="lightningLogo"
                     />
                 </Button>
+            </div>
+            <div className='design-of-eclipse'>
+                <img src={designofeclipse} alt="design-of-eclipse" />
             </div>
         </div>
     )
