@@ -23,6 +23,23 @@
 .our-supporters .supporter-response-card{
     padding: 1.5rem;
     background: #FAF9FF;
+    margin-bottom: 2%;
+}
+@media screen and (max-width:1400px) {
+    .our-supporters .supporter-response-card{
+        padding: 1rem !important;
+    }
+    .our-supporters .supporter-response-card .supporter-info{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .our-supporters .supporter-response-card{
+        padding: 0.5rem 0 !important;
+    }
+}
+.our-supporters .supporter-response-card .container-fluid{
+    padding: 0.5rem;
 }
 .our-supporters .supporter-response-card .description{
     min-height: 80px;
