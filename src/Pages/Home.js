@@ -3,6 +3,7 @@ import CommunitySportsContent from "../Components/CommunitySportsContent";
 import HomePageMainContent from "../Components/HomePageMainContent";
 import NavbarHome from "../Components/NavbarHome";
 import FooterHome from "../Components/FooterHome"
+import BecomeMember from "../Components/BecomeMember";
 
 
 const Home = () => {
@@ -12,11 +13,11 @@ const Home = () => {
   return (
     <div className="HomePageContent">
       <div className="landingMainContent">&nbsp;</div>
-      <NavbarHome />
+      {/* <NavbarHome />
       <HomePageMainContent/>
-      {/* <CommunitySportsContent/> */}
-      
-      <FooterHome></FooterHome>
+      <CommunitySportsContent/> */}
+      <BecomeMember/>
+      <FooterHome/>
     </div>
   );
 };
