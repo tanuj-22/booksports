@@ -6,9 +6,9 @@ import "../css/NavbarHome.css";
 const NavbarHome = () => {
   return (
     <Navbar className="navbarMain" bg="bg-transparent" expand="lg">
-      <Container>
+      <Container className="block-container">
         <Navbar.Brand className="navBrand" href="/">
-          <img src={logo} alt="booksports-logo" />
+          <img className="img-fluid" src={logo} alt="booksports-logo" />
         </Navbar.Brand>
         <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav">
           <img src={NavbarToggler} alt="navbar-toggler" />
