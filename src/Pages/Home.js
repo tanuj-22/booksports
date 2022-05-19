@@ -6,6 +6,7 @@ import FooterHome from "../Components/FooterHome"
 import BecomeMember from "../Components/BecomeMember";
 import Supporters from "../Components/Supporters";
 import CommunicateandLead from "../Components/CommunicateandLead";
+import SimpleDesign from "../Components/SimpleDesign";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       {/* <NavbarHome />
       <HomePageMainContent/>
       <CommunitySportsContent/> */}
+      <SimpleDesign/>
       <CommunicateandLead/>
       <Supporters/>
       <BecomeMember/>
