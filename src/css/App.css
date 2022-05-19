@@ -9,7 +9,7 @@ body {
 }
 .landingMainContent {
   width: 100%;
-  height: 100vh;
+  height: 105vh;
   background: linear-gradient(90deg, #efecff 0%, #c4b8ff 100%);
   z-index: -1;
   position: absolute;
@@ -29,3 +29,6 @@ body {
   }
 }
   
+.block-container{
+  width: 80% !important;
+}
