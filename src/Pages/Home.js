@@ -7,6 +7,8 @@ import BecomeMember from "../Components/BecomeMember";
 import Supporters from "../Components/Supporters";
 import CommunicateandLead from "../Components/CommunicateandLead";
 import SimpleDesign from "../Components/SimpleDesign";
+import Pricing from '../Components/Pricing';
+
 
 const Home = () => {
   return (
@@ -20,6 +22,7 @@ const Home = () => {
       <SimpleDesign />
       <CommunicateandLead />
       <Supporters />
+      <Pricing/>
       <BecomeMember />
       <FooterHome />
     </>
