@@ -1,5 +1,5 @@
 * {
-  font-family: "Space Grotesk", "Roboto", sans-serif;
+  font-family: "ClashGrotesk-Medium","Space Grotesk", "Roboto", sans-serif;
 }
 
 .HomePageContent {
@@ -26,11 +26,11 @@
     height: 80vh;
   }
 }
-  
-.block-container{
+
+.block-container {
   width: 80% !important;
 }
 
-.block-container-2{
+.block-container-2 {
   width: 100% !important;
 }

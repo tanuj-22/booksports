@@ -76,6 +76,7 @@
   font-weight: 400;
   padding-bottom: 48px;
   text-align: start;
+  font-family: "Inter", sans-serif;
 }
 
 @media screen and (max-width: 560px) {

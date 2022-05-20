@@ -16,22 +16,19 @@
 @media screen and (max-width: 992px) {
   .homePageContents {
     height: 78vh;
-    
   }
 }
 @media screen and (max-width: 768px) {
   .homePageContents {
     height: 78vh;
-    
   }
 }
 @media screen and (max-width: 576px) {
   .homePageContents {
     height: 78vh;
-    
   }
 }
-  
+
 .HomeMainContent {
   position: absolute;
   top: 15%;
@@ -48,6 +45,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 @media screen and (max-width: 992px) {
