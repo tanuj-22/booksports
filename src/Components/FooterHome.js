@@ -15,16 +15,18 @@ const FooterHome = () => {
         <div className='footer-home'>
             <Container>
                 <Row className='footer-row'>
-                    <Col lg={6} md={6} sm={12}>
-                        <img src={whitecompanylogo} alt='booksports' />
+                    <Col lg={6} md={12}>
+                        <div className='booksportslogo'>
+                            <img src={whitecompanylogo} alt='booksports' />
+                        </div>
                     </Col>
-                    <Col lg={6} md={6} sm={12} className='column-right'>
+                    <Col lg={6} md={12} className='column-right'>
                         Privacy Policy
                     </Col>
                 </Row>
                 <hr/>
                 <Row>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={{span:6,order:1}} md={{span:12, order:2}} sm={{span:12, order:2}}>
                         <p className='copyright-text'>
                             © 2022 Booksports
                             <br/>
@@ -33,7 +35,7 @@ const FooterHome = () => {
                             ACN: 652 085 133
                         </p>
                     </Col>
-                    <Col lg={6} md={6} sm={12} className='column-right'>
+                    <Col lg={{span:6, order:2}} md={{span:12, order:1}} sm={{span:12, order:1}} className='column-right'>
                         <div className='social-media'>
                             <img src={twitter} alt='twitter' />
                             <img src={facebook} alt='facebook' />
