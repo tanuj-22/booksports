@@ -1,6 +1,6 @@
 // import components
 import PricingTable from "./PricingTable";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 // import css
 import '../css/pricing.css';
 
@@ -14,15 +14,20 @@ const Pricing = () => {
             <p className="pricing-heading">
                 Pricing
             </p>
-            <p>
-                <span>
-                    Yearly
-                </span>
-                <span>
-                    Monthly
-                </span>
-            </p>
+            <div className="tab-section">
+                <Container fluid>
+                    <Row>
+                        <Col xs={6}>
+                            <p className="tab-section-yearly">Yearly</p>
+                        </Col>
+                        <Col xs={6}>
+                            <p className="tab-section-monthly">Monthly</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
             <PricingTable/>
+
         </Container>
     </div>
   )
