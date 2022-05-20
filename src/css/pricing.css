@@ -1,0 +1,23 @@
+.pricing-section{
+    text-align: center;
+    background: white;
+}
+.pricing-section .pricing-tagline{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #7B61FF;
+}
+.pricing-section .pricing-heading{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #000000;
+}
+.pricing-section .pricing-table{
+    text-align: left;
+}
