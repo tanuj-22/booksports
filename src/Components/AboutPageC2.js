@@ -6,7 +6,7 @@ import trainersBtn from "../assests/trainers-btn.svg";
 import { Col, Row } from "react-bootstrap";
 import AboutPageC3 from "./AboutPageC3";
 const AboutPageC2 = () => {
-  const [length, setlength] = useState("10%");
+  const [length, setlength] = useState("20%");
 
   return (
     <>
@@ -46,9 +46,9 @@ const AboutPageC2 = () => {
           </Row>
         </div>
       </div>
-      {length=="20%" && <AboutPageC3 tagName={"FOR USERS"}/>}
-      {length=="50%" && <AboutPageC3 tagName={"FOR VENUES"}/>}
-      {length=="80%" && <AboutPageC3 tagName={"FOR TRAINERS"}/>}
+      {length == "20%" && <AboutPageC3 tagName={"FOR USERS"} />}
+      {length == "50%" && <AboutPageC3 tagName={"FOR VENUES"} />}
+      {length == "80%" && <AboutPageC3 tagName={"FOR TRAINERS"} />}
     </>
   );
 };
