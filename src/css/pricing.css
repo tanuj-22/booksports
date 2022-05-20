@@ -2,6 +2,11 @@
     text-align: center;
     background: white;
 }
+.pricing-section .save-money{
+    position: absolute;
+    left: 38%;
+    transform: translateY(-160%);
+}
 .pricing-section .pricing-tagline{
     font-weight: 500;
     font-size: 16px;

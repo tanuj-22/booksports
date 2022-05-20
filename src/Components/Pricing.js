@@ -3,6 +3,8 @@ import PricingTable from "./PricingTable";
 import { Container, Row, Col } from "react-bootstrap";
 // import css
 import '../css/pricing.css';
+// import assets
+import savemoney from '../assests/savemoney.svg';
 
 const Pricing = () => {
   return (
@@ -25,6 +27,11 @@ const Pricing = () => {
                         </Col>
                     </Row>
                 </Container>
+            </div>
+
+            {/* vector */}
+            <div className="save-money">
+                <img src={savemoney} alt=""/>
             </div>
             <PricingTable/>
 
