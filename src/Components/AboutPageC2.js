@@ -46,9 +46,9 @@ const AboutPageC2 = () => {
           </Row>
         </div>
       </div>
-      {length == "20%" && <AboutPageC3 tagName={"FOR USERS"} />}
-      {length == "50%" && <AboutPageC3 tagName={"FOR VENUES"} />}
-      {length == "80%" && <AboutPageC3 tagName={"FOR TRAINERS"} />}
+      {length === "20%" && <AboutPageC3 tagName={"FOR USERS"} />}
+      {length === "50%" && <AboutPageC3 tagName={"FOR VENUES"} />}
+      {length === "80%" && <AboutPageC3 tagName={"FOR TRAINERS"} />}
     </>
   );
 };

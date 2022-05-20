@@ -1,5 +1,5 @@
 * {
-  font-family: "ClashGrotesk-Medium","Space Grotesk", "Roboto", sans-serif;
+  font-family: "ClashGrotesk-Medium", "Space Grotesk", "Roboto", sans-serif;
 }
 
 .HomePageContent {
@@ -30,7 +30,11 @@
 .block-container {
   width: 80% !important;
 }
-
+@media screen and (max-width: 560px) {
+  .block-container {
+    width: 100% !important;
+  }
+}
 .block-container-2 {
   width: 100% !important;
 }
