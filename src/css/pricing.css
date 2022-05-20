@@ -101,5 +101,34 @@
 .pricing-section .pricing-table{
     text-align: left;
     margin: auto;
-    width: 80%;
+    width: 70%;
+}
+.pricing-section .pricing-table .join-button-pricing {
+    background-color: #000 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    position: relative;
+    top: 1.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: 6vh !important;
+    margin-bottom: 1rem !important;
+}
+.pricing-section .pricing-table .join-button-pricing-outline{
+    box-shadow: none !important;
+    position: relative;
+    top: 1.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: 6vh !important;
+    margin-bottom: 1rem !important;
 }
