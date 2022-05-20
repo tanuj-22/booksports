@@ -10,7 +10,7 @@ const AboutPageC2 = () => {
 
   return (
     <>
-      <div className="feature-section-container">
+      <div className="feature-section-container" id="features">
         <p>FEATURE</p>
         <h3>Discover what BookSports can do for you</h3>
         <div className="feature-section-content-selection">
