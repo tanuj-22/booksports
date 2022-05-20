@@ -4,7 +4,7 @@ import {Col} from 'react-bootstrap'
 
 const InfoCard = (props) => {
   return (
-    <Col lg={4} md={5} sm={12}>
+    <Col lg={4} md={6} sm={12}>
         {/* image */}
         <div className='info-card'>
             <img src={props.image} alt=""/>

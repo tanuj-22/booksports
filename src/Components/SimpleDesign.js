@@ -1,5 +1,5 @@
 // import css
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import '../css/simple-design.css'
 
 // import card
