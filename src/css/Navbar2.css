@@ -1,0 +1,54 @@
+.navbarMain2 {
+  font-family: "ABeeZee", sans-serif;
+}
+.navLink2 {
+  font-style: italic;
+  color: #e3e3e3 !important;
+  font-size: 1.125rem;
+}
+.nav-toggle-2 {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+@media screen and (max-width: 992px) {
+  .backslashView {
+    display: none !important;
+  }
+}
+
+.navNHeader {
+  background-color: #3671d5;
+  background-image: url("/src/assests/Navbar2Oval1.svg"),
+    url("/src/assests/Navbar2Oval2.svg"), url("/src/assests/Navbar2Oval3.svg"),
+    url("/src/assests/Navbar2Oval4.svg"), url("/src/assests/Navbar2Oval5.svg");
+  background-repeat: no-repeat;
+  background-position: left top, left top, 90% -20%, 95% 55%, 96% 65%;
+  height: max-content;
+  min-height: 25vh;
+  z-index: -1;
+}
+@media screen and (max-width: 576px) {
+  .navNHeader {
+    background-position: left top, left top, 50% -20%, 95% 55%, 96% 65%;
+  }
+}
+
+.header-title h2 {
+  text-align: center;
+  color: white;
+  line-height: 3.45rem;
+  font-size: 2.5rem;
+  padding: 3rem;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.aboutbg{
+  position: absolute;
+  top: 90%;
+}
+.aboutbg1{
+  position: absolute;
+  top: 70%;
+  left: 3%;
+}
