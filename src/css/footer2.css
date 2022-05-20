@@ -1,0 +1,79 @@
+.footer-container {
+  margin: 1rem auto;
+  width: 80% !important;
+  height: max-content;
+  margin-bottom: 0 !important;
+  padding-bottom: 1rem;
+}
+.footer-2-container {
+  height: max-content;
+  background-color: #fff;
+  background-image: url("/src/assests/footer-left-1.svg"),
+    url("/src/assests/footer-left.svg"), url("/src/assests/footer-left-3.svg"),
+    url("/src/assests/footer-left-2.svg"), url("/src/assests/footer-right.svg"),
+    url("/src/assests/footer-right-1.svg"),
+    url("/src/assests/footer-right-2.svg"),
+    url("/src/assests/footer-right-3.svg");
+
+  background-repeat: no-repeat;
+  background-position: left bottom, left bottom, 1% top, 1.5% 12%, 100% bottom,
+    101% center, 93.5% top, 95% 12%;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-container {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-2-container {
+    background-position: -20% bottom, -15% bottom, 1% top, 1.5% 12%, 120% bottom,
+    101% bottom, 93.5% top, 95% 12%;
+  }
+}
+.navLink3 {
+  color: #2a2751 !important;
+}
+
+.footer-line {
+  margin-top: 0rem !important;
+  margin-bottom: 1rem !important;
+  background-color: rgba(60, 63, 96, 0.4);
+}
+
+.footer-container p {
+  color: #2a2751;
+  display: inline-block;
+}
+.column-right-2 {
+  text-align: right;
+}
+.copyright-text-2 {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.social-media-2 img {
+  margin-left: 0.75rem;
+}
+@media screen and (max-width: 768px) {
+  .social-media-2 {
+    text-align: center;
+  }
+  .copyright-text-2 {
+    text-align: center;
+  }
+}
+
+.expand-link .icon-contract {
+  display: none;
+}
+
+.expand-link:hover .icon-expand,
+.expand-link:active .icon-expand {
+  display: none;
+}
+.expand-link:hover .icon-contract,
+.expand-link:active .icon-contract {
+  display: inline;
+}

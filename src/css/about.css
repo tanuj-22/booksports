@@ -1,0 +1,220 @@
+.aboutPage {
+  font-family: "ABeeZee", sans-serif;
+}
+.aboutPageContentContainer {
+  width: 80% !important;
+}
+.aboutPhone1 {
+  object-fit: contain !important;
+  height: max-content !important;
+  width: 100% !important;
+}
+.about-us-1 p {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 0.2rem;
+  color: #3671d5;
+}
+.abt-img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+.abt-img-wrapper img {
+  width: 150% !important;
+  transform: translateX(-20%);
+}
+.about-us-1 h3 {
+  font-size: 2.375rem;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+  font-style: italic;
+}
+.about-cards-container {
+  width: 100%;
+  background-color: #fff;
+  height: max-content;
+  border-radius: 8px;
+  padding: 20px 30px 20px 45px;
+  box-shadow: 0px 30px 250px 10px rgba(180, 192, 233, 0.12);
+}
+
+.aboutContentsPage1Container {
+  position: relative;
+  margin: 15px auto;
+}
+.aboutContentsPage1Container img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  box-shadow: 8px 20px 120px 10px rgba(56, 57, 79, 0.12);
+  border-radius: 50%;
+}
+
+.about-cards-container h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1325rem;
+  line-height: 1.7rem;
+  /* color: #fff; */
+  color: #29284e;
+}
+.about-cards-container p {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 0.875rem;
+  line-height: 2rem;
+  font-style: italic;
+  /* color: #e6e6e8; */
+  color: #3c3f60;
+}
+#cardIcon2Filled {
+  display: none;
+}
+
+#cardIcon2:hover + #cardIcon2Filled {
+  display: block;
+}
+
+.aboutContentsPage1Container:hover #cardIcon2Filled {
+  display: block;
+}
+.aboutContentsPage1Container:hover .about-cards-container {
+  background-color: #3671d5;
+}
+.aboutContentsPage1Container:hover .about-cards-container h4 {
+  color: #fff;
+}
+.aboutContentsPage1Container:hover .about-cards-container p {
+  color: #e6e6e8;
+}
+
+.aboutContentsPage1Container:active #cardIcon2Filled {
+  display: block;
+}
+.aboutContentsPage1Container:active .about-cards-container {
+  background-color: #3671d5;
+}
+.aboutContentsPage1Container:active .about-cards-container h4 {
+  color: #fff;
+}
+.aboutContentsPage1Container:active .about-cards-container p {
+  color: #e6e6e8;
+}
+.feature-section-container {
+  margin: 5rem auto;
+}
+.feature-section-container p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  color: #3671d5;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.feature-section-container h3 {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 2.375rem;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+  font-style: italic;
+  color: #29284e;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .feature-section-container h3 {
+    font-size: 2.125rem;
+    width: 100%;
+  }
+}
+
+.feature-section-content-selection button {
+  border: none;
+  background-color: transparent;
+}
+
+.feature-section-content-selection {
+  width: 70%;
+  margin: 2rem auto;
+}
+@media screen and (max-width: 992px) {
+  .feature-section-content-selection {
+    width: 100%;
+    margin: 1.5rem auto;
+  }
+  .feature-section-content-selection button {
+    margin: 0.2rem auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img-btns {
+    width: 95%;
+  }
+}
+.feature-section-content-selection-row {
+  position: relative;
+}
+.feature-selection-line {
+  margin-top: 0.4rem !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  width: 90% !important;
+  border: 0px;
+  border-top: 3px solid #eeeeee;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btn-selection-line {
+  margin-top: 0.4rem !important;
+  position: absolute;
+  width: 30% !important;
+  border: 0px;
+  background-color: #3671d5 !important;
+  border-top: 3px solid #3671d5 !important;
+  z-index: 0;
+  top: 0;
+  opacity: 1;
+  border-radius: 10px;
+  left:20%;
+  transform: translateX(-50%);
+}
+
+/* about page c3 */
+
+.aboutPhone2 {
+  object-fit: contain !important;
+  height: max-content !important;
+  width: 100% !important;
+}
+
+.feature-content {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.125rem;
+  line-height: 30px;
+  font-weight: 400;
+  color: #656667 !important;
+  font-style: italic;
+  margin: 1rem 0px !important;
+}
+.feature-tag-name {
+  margin-top: 2rem;
+}
+.feature-heading {
+  width: 80%;
+  margin: 1rem 0;
+}
+.feature-btn {
+  background-color: #3671d5 !important;
+  border-radius: 5px !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem !important;
+  padding: 13px 33px !important;
+  margin: 2rem auto !important;
+}

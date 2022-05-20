@@ -1,0 +1,18 @@
+.termsPage {
+  font-family: "ABeeZee", sans-serif;
+}
+.termsPageContent h3 {
+  font-size: 1.5rem;
+  color: #29294e;
+  font-style: italic;
+  font-weight: 400;
+}
+.termsPageContent p {
+  font-size: 1.125rem;
+  color: #4d5262;
+  font-style: italic;
+}
+.info-line-svg{
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
