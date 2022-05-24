@@ -12,21 +12,39 @@ import img7 from "../assests/masonryGrid/41.png";
 import img8 from "../assests/masonryGrid/comm-sport-mobile.png";
 const CommunitySportsContent = () => {
   return (
-    <div className="Comm-container">
+    <div
+      className="Comm-container"
+      data-aos="fade-down"
+      data-aos-anchor=".HomeMainContentBackground"
+      data-aos-anchor-placement="top-center"
+      data-aos-offset="0"
+    >
       <Container className="block-container">
         <Row className="align-items-start">
-          <Col className="column-container " md={{ span: 6, order: 2 }}>
+          <Col
+            className="column-container "
+            md={{ span: 6, order: 2 }}
+            data-aos="fade-down"
+            data-aos-delay="500"
+            data-aos-easing="ease-out"
+          >
             <div className="img-container" id="left-container-img">
-              {[img1, img3, img5, img2, img4, img6, img7].map((img, index) => {
+              {[img1, img3, img5, img6, img3, img4, img7].map((img, index) => {
                 return <img src={img} key={index} alt={"img" + index} />;
               })}
             </div>
-            
+
             <div className="mobile-img-container">
               <img src={img8} alt="img1" />
             </div>
           </Col>
-          <Col className="column-container" md={{ span: 6, order: 1 }}>
+          <Col
+            className="column-container"
+            md={{ span: 6, order: 1 }}
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-easing="ease-out"
+          >
             <Container fluid className="com-sports-content-container">
               <div className="com-sports-content">
                 <h2>The power of community sports.</h2>

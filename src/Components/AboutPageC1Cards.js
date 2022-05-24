@@ -7,9 +7,10 @@ const AboutPageC1Cards = ({
   cardIcon,
   cardIconFilled,
 }) => {
+
   return (
     <>
-      <div className="aboutContentsPage1Container">
+      <div data-aos={"zoom-in-left"} data-aos-anchor="#abtPageAos" className="aboutContentsPage1Container">
         <div className="about-cards-container">
           <h4>{cardHeading}</h4>
 

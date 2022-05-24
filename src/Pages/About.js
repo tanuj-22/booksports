@@ -11,7 +11,7 @@ import AboutPageC2 from "../Components/AboutPageC2";
 const About = () => {
   return (
     <>
-      <div className="aboutPage">
+      <div className="aboutPage" id="abtPageAos">
         <div className="navNHeader">
           <Container>
             <div className="navNHeaderContent">

@@ -7,22 +7,25 @@ import BecomeMember from "../Components/BecomeMember";
 import Supporters from "../Components/Supporters";
 import CommunicateandLead from "../Components/CommunicateandLead";
 import SimpleDesign from "../Components/SimpleDesign";
-import Pricing from '../Components/Pricing';
-
+import Pricing from "../Components/Pricing";
 
 const Home = () => {
   return (
     <>
       <div className="HomePageContent">
         <div className="landingMainContent">&nbsp;</div>
-        <NavbarHome />
+        <NavbarHome
+          data-aos="fade-down-right"
+          data-aos-easing="ease-out"
+          data-aos-duration="300"
+        />
         <HomePageMainContent />
       </div>
       <CommunitySportsContent />
       <SimpleDesign />
       <CommunicateandLead />
       <Supporters />
-      <Pricing/>
+      <Pricing />
       <BecomeMember />
       <FooterHome />
     </>

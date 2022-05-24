@@ -3,9 +3,9 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../assests/logo.svg";
 import NavbarToggler from "../assests/NavbarToggler.svg";
 import "../css/NavbarHome.css";
-const NavbarHome = () => {
+const NavbarHome = ({...props}) => {
   return (
-    <Navbar className="navbarMain" bg="bg-transparent" expand="lg">
+    <Navbar className="navbarMain" bg="bg-transparent" expand="lg" {...props}>
       <Container className="block-container">
         <Navbar.Brand className="navBrand" href="/">
           <img className="img-fluid" src={logo} alt="booksports-logo" />

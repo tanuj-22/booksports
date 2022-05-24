@@ -68,9 +68,9 @@
   outline: 0 !important;
   box-shadow: none !important;
   position: relative;
-  top: 1.5vh;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 1.5vh !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
   margin-left: auto !important;
   margin-right: auto !important;
   border-radius: 0px !important;
