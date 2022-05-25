@@ -33,8 +33,42 @@ const PricingTable = () => {
                 <tbody>
                     <tr>
                         <td>Pricing</td>
-                        <td></td>
-                        <td></td>
+                        <td width={"35%"}>
+                            <div className='pricing-in-td'>
+                                <p className='price-per-month'>
+                                    $0/mo
+                                </p>
+                                <p className='info-line-td'>
+                                    Great for everyone who loves to play sports.
+                                </p>
+                                <Button onMouseOver={hoverOnButton} onMouseOut={hoverOffButton} className="join-button-pricing-outline" id="join-waitlist-btn" variant="outline-dark">
+                                    <span className="join-btn-text">Join Waitlist</span>
+                                    <img
+                                        src={logo}
+                                        alt="lightning-logo"
+                                        className="lightningLogo"
+                                    />
+                                </Button>
+                            </div>
+                        </td>
+                        <td width={"35%"}>
+                            <div className='pricing-in-td'>
+                            <p className='price-per-month'>
+                                $15/mo
+                            </p>
+                            <p className='info-line-td'>
+                                Great for everyone who loves to organise sport games and events.
+                            </p>
+                            <Button className="join-button-pricing" id="join-waitlist-btn" variant="dark">
+                                <span className="join-btn-text">Join Waitlist</span>
+                                <img
+                                    src={lightningLogo}
+                                    alt="lightning-logo"
+                                    className="lightningLogo"
+                                />
+                            </Button>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <th>Features</th>
@@ -178,6 +212,14 @@ const PricingTable = () => {
                         &nbsp;
                         Reserve your spots
                     </p>
+                    <Button onMouseOver={hoverOnButton} onMouseOut={hoverOffButton} className="join-button-pricing-outline" id="join-waitlist-btn" variant="outline-dark">
+                                <span className="join-btn-text">Join Waitlist</span>
+                                <img
+                                    src={logo}
+                                    alt="lightning-logo"
+                                    className="lightningLogo"
+                                />
+                            </Button>
                     
 
             </div>
@@ -218,6 +260,14 @@ const PricingTable = () => {
                         &nbsp;
                         Organise Games and Events
                     </p>
+                    <Button className="join-button-pricing" id="join-waitlist-btn" variant="dark">
+                                <span className="join-btn-text">Join Waitlist</span>
+                                <img
+                                    src={lightningLogo}
+                                    alt="lightning-logo"
+                                    className="lightningLogo"
+                                />
+                            </Button>
                     
             </div>
         </div>

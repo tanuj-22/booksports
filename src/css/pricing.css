@@ -111,6 +111,19 @@
     margin-bottom: 5%;
     width: 70%;
 }
+.pricing-section .pricing-table .price-per-month{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+}
+.pricing-section .pricing-table .info-line-td{
+    min-height: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
 .pricing-section .pricing-table .join-button-pricing {
     background-color: #000 !important;
     border: 0 !important;
@@ -127,6 +140,7 @@
     height: 6vh !important;
     margin-bottom: 1rem !important;
 }
+
 .pricing-section .pricing-table .join-button-pricing-outline{
     box-shadow: none !important;
     position: relative;
@@ -139,7 +153,9 @@
     width: 100% !important;
     height: 6vh !important;
     margin-bottom: 1rem !important;
+    
 }
+
 
 .pricing-section .pricing-alternate{
     display: none;
