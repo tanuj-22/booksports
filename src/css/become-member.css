@@ -48,4 +48,7 @@
   .become-member .info {
     width: 100%;
   }
+  .become-member .design-of-eclipse{
+    display: none;
+  }
 }
