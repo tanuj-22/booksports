@@ -31,6 +31,9 @@
     margin-top: 4%;
     margin-bottom:4%;
 }
+.simple-design .info-card img{
+    margin-bottom: 5%;
+}
 .simple-design .info-cards .info-card{
     width: 80%;
     margin:auto;

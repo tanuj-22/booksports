@@ -157,3 +157,12 @@
         display: block;
     }
 }
+
+@media screen and (max-width:400px) {
+    .pricing-section .pricing-table{
+        width: 90%;
+    }
+    .pricing-section .pricing-alternate .pro-pricing{
+        padding: 5%;
+    }
+}
