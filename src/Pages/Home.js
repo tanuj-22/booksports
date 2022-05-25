@@ -9,6 +9,7 @@ import CommunicateandLead from "../Components/CommunicateandLead";
 import SimpleDesign from "../Components/SimpleDesign";
 import Pricing from "../Components/Pricing";
 import CreateSportEvent from "../Components/CreateSportEvent";
+import FastPayouts from "../Components/FastPayouts";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <CreateSportEvent/>
       <SimpleDesign />
       <CommunicateandLead />
+      <FastPayouts/>
       <Supporters />
       <Pricing />
       <BecomeMember />
