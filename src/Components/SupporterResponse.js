@@ -6,7 +6,7 @@ const SupporterResponse = (props) => {
   return (
     <div
       className="supporter-response-card"
-      data-aos="zoom-out"
+      data-aos="zoom-in"
       data-aos-delay="800"
     >
       <Container fluid>
