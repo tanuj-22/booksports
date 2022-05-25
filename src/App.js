@@ -7,7 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
   AOS.init({
-    duration: 1000,
+    duration: 600,
     easing: "ease-in-out",  
   });
   return (
