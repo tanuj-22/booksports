@@ -9,6 +9,12 @@
   height: max-content;
   /* background-color: rgba(0, 255, 255, 0.509); */
 }
+@media screen and (min-width: 1400px) {
+  .Comm-container > .block-container {
+    padding-top: 10%;
+  }
+}
+
 .Comm-container .container {
   width: 80% !important;
   max-width: 80% !important;
