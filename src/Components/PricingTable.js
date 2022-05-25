@@ -20,126 +20,186 @@ const PricingTable = () => {
 
   return (
     <div className='pricing-table' data-aos="fade-up" data-aos-delay="1200">
-        <Table responsive>
-            <thead>
-                <tr>
-                    <td>Plans</td>
-                    <th>Users</th>
-                    <th>Pro</th>
+        <div className='table-parent'>
+            <Table responsive>
+                <thead>
+                    <tr>
+                        <td>Plans</td>
+                        <th>Users</th>
+                        <th>Pro</th>
 
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Pricing</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Features</th>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Organise Games and Events</td>
-                    <td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pricing</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Features</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Organise Games and Events</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Create Groups and Messenger</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Reserve your spots</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Smart Waiting List</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Split booking fees evenly</td>
+                        <td>-</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Advanced Organiser settings</td>
+                        <td>-</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Receive online payments</td>
+                        <td>-</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Choose Refund deadline</td>
+                        <td>-</td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Recurring events / games
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <img src={correct} alt=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <Button onMouseOver={hoverOnButton} onMouseOut={hoverOffButton} className="join-button-pricing-outline" id="join-waitlist-btn" variant="outline-dark">
+                                <span className="join-btn-text">Join Waitlist</span>
+                                <img
+                                    src={logo}
+                                    alt="lightning-logo"
+                                    className="lightningLogo"
+                                />
+                            </Button>
+                        </td>
+                        <td>
+                            <Button className="join-button-pricing" id="join-waitlist-btn" variant="dark">
+                                <span className="join-btn-text">Join Waitlist</span>
+                                <img
+                                    src={lightningLogo}
+                                    alt="lightning-logo"
+                                    className="lightningLogo"
+                                />
+                            </Button>
+                        </td>
+                    </tr>
+                </tbody>
+            </Table>
+        </div>
+        <div className='pricing-alternate'>
+            <div className='user-pricing'>
+                <p className='pricing-alternate-heading'>User</p>
+                <p className='pricing-alternate-price'>$0/mo</p>
+                <hr/>
+                <p className='user-pricing-features'>
+                    <span>
                         <img src={correct} alt=""/>
-                    </td>
-                    <td>
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </span>
+                    <br/>
+                    <span>
                         <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Create Groups and Messenger</td>
-                    <td>
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </span>
+                    <br/>
+                    <span>
                         <img src={correct} alt=""/>
-                    </td>
-                    <td>
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </span>
+                    <br/>
+                </p>
+            </div>
+            <div className='pro-pricing'>
+                <p>Pro</p>
+                <p>$20/mo</p>
+                <hr/>
+                <p className='user-pricing-features'>
+                    <span>
                         <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Reserve your spots</td>
-                    <td>
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </span>
+                    <br/>
+                    <span>
                         <img src={correct} alt=""/>
-                    </td>
-                    <td>
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </span>
+                    <br/>
+                    <span>
                         <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Smart Waiting List</td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Split booking fees evenly</td>
-                    <td>-</td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Advanced Organiser settings</td>
-                    <td>-</td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Receive online payments</td>
-                    <td>-</td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Choose Refund deadline</td>
-                    <td>-</td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Recurring events / games
-                    </td>
-                    <td>
-                        -
-                    </td>
-                    <td>
-                        <img src={correct} alt=""/>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <Button onMouseOver={hoverOnButton} onMouseOut={hoverOffButton} className="join-button-pricing-outline" id="join-waitlist-btn" variant="outline-dark">
-                            <span className="join-btn-text">Join Waitlist</span>
-                            <img
-                                src={logo}
-                                alt="lightning-logo"
-                                className="lightningLogo"
-                            />
-                        </Button>
-                    </td>
-                    <td>
-                        <Button className="join-button-pricing" id="join-waitlist-btn" variant="dark">
-                            <span className="join-btn-text">Join Waitlist</span>
-                            <img
-                                src={lightningLogo}
-                                alt="lightning-logo"
-                                className="lightningLogo"
-                            />
-                        </Button>
-                    </td>
-                </tr>
-            </tbody>
-        </Table>
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </span>
+                    <br/>
+                </p>
+            </div>
+        </div>
     </div>
   )
 }

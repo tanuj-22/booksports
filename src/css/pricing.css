@@ -94,13 +94,16 @@
     background: white;
     margin: 0;
     width: 130px;
-    transform:  translate(-5%, 5%);
+    transform:  translate(-6%, 5%);
     border-radius: 100px;
     padding: 15px;
 }
 .pricing-section .pricing-table{
     text-align: left;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 70%;
 }
 .pricing-section .pricing-table .join-button-pricing {
@@ -131,4 +134,26 @@
     width: 100% !important;
     height: 6vh !important;
     margin-bottom: 1rem !important;
+}
+
+.pricing-section .pricing-alternate{
+    display: none;
+}
+.pricing-section .pricing-alternate .user-pricing{
+    margin-top: 5%;
+    padding: 3% 5%;
+}
+.pricing-section .pricing-alternate .pro-pricing{
+    margin-top: 5%;
+    border: 2px solid black;
+    padding: 3% 5%;
+}
+
+@media screen and (max-width:992px) {
+    .pricing-section .table-parent{
+        display: none;
+    }
+    .pricing-section .pricing-alternate{
+        display: block;
+    }
 }
