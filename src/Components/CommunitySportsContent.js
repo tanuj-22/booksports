@@ -20,7 +20,7 @@ const CommunitySportsContent = () => {
       data-aos-offset="0"
     >
       <Container className="block-container">
-        <Row className="align-items-start">
+        <Row className="align-items-center">
           <Col
             className="column-container "
             md={{ span: 6, order: 2 }}
