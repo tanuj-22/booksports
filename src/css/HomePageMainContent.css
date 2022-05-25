@@ -75,7 +75,7 @@
   margin-right: auto !important;
   border-radius: 0px !important;
   width: 11.25rem !important;
-  height: 6vh !important;
+  /* height: 6vh !important; */
   margin-bottom: 1rem !important;
 }
 @media screen and (max-width: 560px) {
@@ -86,7 +86,8 @@
 .join-btn-text {
   padding-left: 10px;
   padding-right: 10px;
-  font-weight: 500;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
 }
 /* new */
 .mockup-background-container {

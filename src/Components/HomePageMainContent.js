@@ -39,6 +39,8 @@ const HomePageMainContent = () => {
               className="JoinButton"
               id="join-waitlist-btn"
               variant="primary"
+              href="https://airtable.com/shr34G4Am3wHWmyJq"
+              size="lg"
             >
               <span className="join-btn-text">Join Waitlist</span>
               <img
