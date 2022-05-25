@@ -103,13 +103,13 @@
   height: 100%;
   margin: 0 auto;
   columns: 2;
-  column-gap: 30px !important;
+  column-gap: 5% !important;
   column-width: 36%;
   padding: 0 41px;
 }
 
 .img-container img {
-  margin-bottom: 30px;
+  margin-bottom: 10%;
   z-index: 5;
   width: 100%;
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Button, Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
 import MobileMockupLeft from "../assests/MobileMockupLeft.png";
 import MobileMockupRight from "../assests/MobileMockupRight.png";
@@ -17,7 +17,7 @@ const HomePageMainContent = () => {
     } else if (inputRef && inputRef.current && window.innerWidth > 768) {
       setLength(inputRef.current.getBoundingClientRect().height + 200);
     }
-  }, [useRef]);
+  }, []);
   return (
     <>
       <div className="homePageContents" style={{ height: length }}>
