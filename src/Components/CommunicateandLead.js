@@ -6,7 +6,7 @@ import "../css/communicate.css";
 
 // import assets
 import socialmediacircle from "../assests/socialmediacircle.svg";
-import messagingside from "../assests/messagingside.svg";
+import messagingside from "../assests/messagingside.png";
 
 const CommunicateandLead = () => {
   return (
