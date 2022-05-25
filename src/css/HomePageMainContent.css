@@ -178,6 +178,7 @@
   width: 30%;
   z-index: 1;
   position: relative;
+  box-shadow: 7.69px 14.42px 23.06px rgba(26, 34, 56, 0.16);
 }
 @media screen and (max-width: 800px) {
   .mobile-mockup-container img {
