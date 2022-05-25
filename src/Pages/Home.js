@@ -17,7 +17,7 @@ const Home = () => {
         <NavbarHome
           data-aos="fade-down-right"
           data-aos-easing="ease-out"
-          data-aos-duration="300"
+          data-aos-duration="400"
         />
         <HomePageMainContent />
       </div>

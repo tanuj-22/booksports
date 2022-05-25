@@ -8,12 +8,16 @@ import savemoney from "../assests/savemoney.svg";
 
 const Pricing = () => {
   return (
-    <div className="pricing-section" id="pricing">
+    <div className="pricing-section" id="pricing" data-aos="fade-up">
       <Container>
-        <p className="pricing-tagline">A plan for everyone</p>
-        <p className="pricing-heading">Pricing</p>
+        <p className="pricing-tagline" data-aos="fade-up" data-aos-delay="400">
+          A plan for everyone
+        </p>
+        <p className="pricing-heading" data-aos="fade-up" data-aos-delay="600">
+          Pricing
+        </p>
         <div className="tab-section">
-          <Container fluid>
+          <Container fluid data-aos="fade-up" data-aos-delay="800">
             <Row>
               <Col xs={6}>
                 <p className="tab-section-yearly">Yearly</p>
@@ -26,8 +30,14 @@ const Pricing = () => {
         </div>
 
         {/* vector */}
-        <div className="save-money">
-          <img src={savemoney} alt="" />
+        <div
+          className="saveMoneyContainer"
+          data-aos="fade-down"
+          data-aos-delay="1000"
+        >
+          <div className="save-money">
+            <img src={savemoney} alt="" />
+          </div>
         </div>
         <PricingTable />
       </Container>
