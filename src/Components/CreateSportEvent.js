@@ -7,6 +7,7 @@ import findsocialgames from '../assests/findsocialgames.svg'
 import makenewfriends from '../assests/makenewfriends.svg'
 import travelandplay from '../assests/travelandplay.svg'
 import anorganiser from '../assests/AnOrganiser.svg'
+import createsportevent from '../assests/create-sport-event.png';
 // import components
 import CreateSportEventInfoCard from "./CreateSportEventInfoCard"
 
@@ -71,7 +72,9 @@ const CreateSportEvent = () => {
                         </div>
                     </Col>
                     <Col md={12} lg={6}>
-                        {/* Tanuj Code here */}
+                        <div className="create-sport-event-image">
+                            <img src={createsportevent}  alt=""/>
+                        </div>
                     </Col>
                 </Row>
             </Container>
