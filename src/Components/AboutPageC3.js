@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
-import aboutPhone2 from "../assests/about-phone-2.svg";
+import aboutPhone2 from "../assests/about-phone-2.png";
 
 const AboutPageC3 = ({tagName}) => {
   return (

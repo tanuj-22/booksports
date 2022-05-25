@@ -22,8 +22,8 @@
   overflow: hidden;
 }
 .abt-img-wrapper img {
-  width: 150% !important;
-  transform: translateX(-20%);
+  width: 100% !important;
+  /* transform: translateX(-10%); */
 }
 .about-us-1 h3 {
   font-size: 2.375rem;
