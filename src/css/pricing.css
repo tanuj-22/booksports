@@ -1,6 +1,7 @@
 .pricing-section{
     text-align: center;
     background: white;
+    padding-bottom: 10%;
 }
 .pricing-section .save-money{
     position: absolute;
@@ -56,6 +57,10 @@
     }
 }
 @media screen and (max-width:450px){
+    .pricing-section{
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
     .pricing-section .save-money{
         left: 5%;
     }
@@ -141,14 +146,41 @@
 }
 .pricing-section .pricing-alternate .user-pricing{
     margin-top: 5%;
-    padding: 3% 5%;
+    padding: 10% 8% 20%;
+}
+.pricing-section .pricing-alternate .user-pricing hr{
+    border: 1px solid #000000;
+    height: 0;
 }
 .pricing-section .pricing-alternate .pro-pricing{
     margin-top: 5%;
-    border: 2px solid black;
-    padding: 3% 5%;
+    border: 2px solid #000000;
+    padding: 10% 8% 20%;
+}
+.pricing-section .pricing-alternate .pro-pricing hr{
+    border: 1px solid #d4d4d4;
+    height: 0;
+}
+.pricing-section .pricing-alternate .pricing-alternate-heading{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+}
+.pricing-section .pricing-alternate .pricing-alternate-price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
 }
 
+.pricing-section .pricing-alternate .pricing-feature{
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+.pricing-section .pricing-alternate .off-feature{
+    opacity: 0.25;
+}
 @media screen and (max-width:992px) {
     .pricing-section .table-parent{
         display: none;
@@ -162,7 +194,5 @@
     .pricing-section .pricing-table{
         width: 90%;
     }
-    .pricing-section .pricing-alternate .pro-pricing{
-        padding: 5%;
-    }
+    
 }

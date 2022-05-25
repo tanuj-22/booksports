@@ -144,60 +144,81 @@ const PricingTable = () => {
         </div>
         <div className='pricing-alternate'>
             <div className='user-pricing'>
-                <p className='pricing-alternate-heading'>User</p>
-                <p className='pricing-alternate-price'>$0/mo</p>
-                <hr/>
-                <p className='user-pricing-features'>
-                    <span>
-                        <img src={correct} alt=""/>
-                        &nbsp;
-                        &nbsp;
-                        Organise Games and Events
+                <p className=''>
+                    <span className='pricing-alternate-heading'>
+                        User
                     </span>
                     <br/>
-                    <span>
-                        <img src={correct} alt=""/>
-                        &nbsp;
-                        &nbsp;
-                        Organise Games and Events
-                    </span>
-                    <br/>
-                    <span>
-                        <img src={correct} alt=""/>
-                        &nbsp;
-                        &nbsp;
-                        Organise Games and Events
-                    </span>
-                    <br/>
+                    <span className='pricing-alternate-price'>$0/mo</span>
                 </p>
+                <hr/>
+                    <p className='pricing-feature'>
+                        <img src={correct} alt=""/>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Organise Games & Events
+                    </p>
+                    
+                    <p className='pricing-feature off-feature'>
+                        <img src={correct} alt=""/>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Create Groups & Messenger
+                    </p>
+                    
+                    <p className='pricing-feature off-feature'>
+                        <img src={correct} alt=""/>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Reserve your spots
+                    </p>
+                    
+
             </div>
             <div className='pro-pricing'>
-                <p>Pro</p>
-                <p>$20/mo</p>
-                <hr/>
-                <p className='user-pricing-features'>
-                    <span>
-                        <img src={correct} alt=""/>
-                        &nbsp;
-                        &nbsp;
-                        Organise Games and Events
+                <p className=''>
+                    <span className='pricing-alternate-heading'>
+                        Pro
                     </span>
                     <br/>
-                    <span>
-                        <img src={correct} alt=""/>
-                        &nbsp;
-                        &nbsp;
-                        Organise Games and Events
+                    <span className='pricing-alternate-price'>
+                        $15/mo
                     </span>
-                    <br/>
-                    <span>
-                        <img src={correct} alt=""/>
-                        &nbsp;
-                        &nbsp;
-                        Organise Games and Events
-                    </span>
-                    <br/>
                 </p>
+                <hr/>
+                    <p className='pricing-feature'>
+                        <img src={correct} alt=""/>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Split booking fees evenly
+                    </p>
+                    
+                    <p className='pricing-feature'>
+                        <img src={correct} alt=""/>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Advanced Organiser settings
+                    </p>
+                    
+                    <p className='pricing-feature off-feature'>
+                        <img src={correct} alt=""/>
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Organise Games and Events
+                    </p>
+                    
             </div>
         </div>
     </div>
