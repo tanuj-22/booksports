@@ -50,6 +50,9 @@ const BecomeMember = () => {
             className="JoinButton"
             id="join-waitlist-btn"
             variant="primary"
+            onClick={() => {
+              window.open("https://airtable.com/shr34G4Am3wHWmyJq", "_blank");
+            }}
           >
             <span className="join-btn-text">Join Waitlist</span>
             <img
