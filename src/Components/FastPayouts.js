@@ -2,6 +2,7 @@
 import {Container, Row, Col, Button} from 'react-bootstrap';
 // import assets
 import lightningLogo from '../assests/lightningLogo.svg'
+import fastpayouts from '../assests/fastpayouts.png'
 // import css
 import '../css/fast-payouts.css'
 
@@ -11,7 +12,7 @@ const FastPayouts = () => {
       <Container>
         <Container>
           <Row>
-            <Col sm={12} md={6}>
+            <Col md={12} lg={6}>
               <div className='fast-payouts-left'>
                 <button className='stripe-btn'>
                   Stripe
@@ -28,6 +29,9 @@ const FastPayouts = () => {
                   className="JoinButton"
                   id="join-waitlist-btn"
                   variant="primary"
+                  onClick={() => {
+                    window.open("https://airtable.com/shr34G4Am3wHWmyJq", "_blank");
+                  }}
                 >
                   <span className="join-btn-text">Join Waitlist</span>
                   <img
@@ -38,7 +42,10 @@ const FastPayouts = () => {
                 </Button>
               </div>
             </Col>
-            <Col sm={12} md={6}>
+            <Col md={12} lg={6}>
+              <div className="fast-payouts-right">
+                <img src={fastpayouts} alt="fast-payouts" />
+              </div>
             </Col>
           </Row>
         </Container>

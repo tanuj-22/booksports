@@ -1,9 +1,10 @@
+.fast-payouts{
+    margin-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
 .fast-payouts .container{
     background: linear-gradient(90deg, #EFECFF 0%, #C4B8FF 100%);
-    margin-top: 8%;
-    margin-bottom: 5%;
-    padding-top: 2%;
-    padding-bottom: 3%;
 }
 .fast-payouts .stripe-btn{
     border: none;
@@ -22,7 +23,10 @@
 .fast-payouts .fast-payouts-left{
     padding-left: 15%;
     padding-right: 25%;
-
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .fast-payouts .JoinButton {
@@ -47,4 +51,38 @@
     font-size: 16px;
     line-height: 150%;
     margin-bottom: 5%;
+}
+.fast-payouts .fast-payouts-right img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    transform: scale(1.25);
+}
+@media screen and (max-width:1200px) {
+    .fast-payouts .fast-payouts-right img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:992px) {
+    .fast-payouts .fast-payouts-right img{
+        /* width: 50%; */
+        transform: none;
+    }
+}
+@media screen and (max-width:576px) {
+    .fast-payouts {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .fast-payouts .fast-payouts-right img{
+        width: 100%;
+    }
+    .fast-payouts .fast-payouts-left{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }.fast-payouts .JoinButton{
+        width: 100%!important;
+    }
 }
