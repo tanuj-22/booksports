@@ -28,7 +28,7 @@ const Home = () => {
       <CreateSportEvent/>
       <SimpleDesign />
       <CommunicateandLead />
-      {/* <FastPayouts/> */}
+      <FastPayouts/>
       <Supporters />
       <Pricing />
       <Testimony/>
