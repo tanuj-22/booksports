@@ -8,6 +8,7 @@ import Supporters from "../Components/Supporters";
 import CommunicateandLead from "../Components/CommunicateandLead";
 import SimpleDesign from "../Components/SimpleDesign";
 import Pricing from "../Components/Pricing";
+import CreateSportEvent from "../Components/CreateSportEvent";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <HomePageMainContent />
       </div>
       <CommunitySportsContent />
+      <CreateSportEvent/>
       <SimpleDesign />
       <CommunicateandLead />
       <Supporters />

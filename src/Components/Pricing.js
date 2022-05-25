@@ -30,13 +30,14 @@ const Pricing = () => {
         </div>
 
         {/* vector */}
-        <div
-          className="saveMoneyContainer"
-          data-aos="fade-down"
-          data-aos-delay="1000"
-        >
-          <div className="save-money">
-            <img src={savemoney} alt="" />
+        <div className="saveMoneyContainer save-money">
+          <div className="">
+            <img
+              src={savemoney}
+              alt=""
+              data-aos="fade-down"
+              data-aos-delay="1000"
+            />
           </div>
         </div>
         <PricingTable />

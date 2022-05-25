@@ -1,0 +1,30 @@
+.create-sport-event .create-sport-event-taglines{
+    width: 60%;
+    color: #000000;
+}
+.create-sport-event .create-sport-event-taglines .create-sport-event-heading{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+}
+.create-sport-event .create-sport-event-taglines .create-sport-event-info{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.create-sport-event .event-info-cards{
+    margin-top: 20%;
+}
+.create-sport-event .event-info-cards .container-fluid{
+    padding: 0;
+}
+
+.create-sport-event .event-info-cards .row > *{
+    padding: 0 !important;
+}
+
+.create-sport-event .event-info-cards .create-sport-event-card{
+    padding-right: 15%;
+    padding-bottom: 10%;
+}
