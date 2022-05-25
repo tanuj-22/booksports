@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button, Container } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
-import MobileMockupLeft from "../assests/MobileMockupLeft.svg";
-import MobileMockupRight from "../assests/MobileMockupRight.svg";
+import MobileMockupLeft from "../assests/MobileMockupLeft.png";
+import MobileMockupRight from "../assests/MobileMockupRight.png";
 import MobileMockupIconLeft from "../assests/MobileMockupIconLeft.svg";
 import MobileMockupIconRight from "../assests/MobileMockupIconRight.svg";
 

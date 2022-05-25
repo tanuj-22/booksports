@@ -200,7 +200,7 @@
 .mockup-icon-left {
   position: absolute;
   top: 40%;
-  left: 14%;
+  left: 13.2%;
   z-index: 4;
   width: 9%;
 }
@@ -208,19 +208,19 @@
 .mockup-icon-right {
   position: absolute;
   top: 49.5%;
-  left: 40%;
+  left: 43%;
   z-index: 4;
   width: 9%;
 }
 @media screen and (max-width: 960px) {
   .mockup-icon-left {
     top: 28%;
-    left: 14%;
+    left: 13.2%;
     width: 10%;
   }
   .mockup-icon-right {
     top: 38%;
-    left: 41%;
+    left: 42.5%;
     width: 10%;
   }
 }
