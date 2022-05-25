@@ -10,6 +10,7 @@ import SimpleDesign from "../Components/SimpleDesign";
 import Pricing from "../Components/Pricing";
 import CreateSportEvent from "../Components/CreateSportEvent";
 import FastPayouts from "../Components/FastPayouts";
+import Testimony from "../Components/Testimony";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       <FastPayouts/>
       <Supporters />
       <Pricing />
+      <Testimony/>
       <BecomeMember />
       <FooterHome />
     </>
