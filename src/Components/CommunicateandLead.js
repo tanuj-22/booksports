@@ -18,8 +18,8 @@ const CommunicateandLead = () => {
             md={6}
             className="communicate-left"
             data-aos="fade-up"
-            data-aos-delay="1300"
-            data-aos-duration="900"
+            data-aos-delay="700"
+            data-aos-duration="600"
             data-aos-easing="ease-in-out"
             data-aos-anchor=".simple-design"
             data-aos-anchor-placement="bottom-center"
@@ -35,8 +35,8 @@ const CommunicateandLead = () => {
             md={6}
             className="communicate-right"
             data-aos="fade-down"
-            data-aos-delay="1300"
-            data-aos-duration="900"
+            data-aos-delay="800"
+            data-aos-duration="600"
             data-aos-easing="ease-in-out"
             data-aos-anchor=".simple-design"
             data-aos-anchor-placement="bottom-center"

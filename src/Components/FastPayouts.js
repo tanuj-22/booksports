@@ -8,7 +8,7 @@ import '../css/fast-payouts.css'
 
 const FastPayouts = () => {
   return (
-    <div className='fast-payouts'>
+    <div className='fast-payouts' data-aos="fade-right">
       <Container>
         <Container>
           <Row>
@@ -43,7 +43,7 @@ const FastPayouts = () => {
               </div>
             </Col>
             <Col md={12} lg={6}>
-              <div className="fast-payouts-right">
+              <div className="fast-payouts-right" >
                 <img src={fastpayouts} alt="fast-payouts" />
               </div>
             </Col>

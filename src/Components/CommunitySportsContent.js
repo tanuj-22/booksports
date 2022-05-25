@@ -27,7 +27,7 @@ const CommunitySportsContent = () => {
             data-aos="fade-down"
             data-aos-delay="500"
             data-aos-easing="ease-out"
-            data-aos-duration="900"
+            data-aos-duration="700"
           >
             <div className="img-container" id="left-container-img">
               {[img1, img3, img5, img6, img3, img4, img7].map((img, index) => {
@@ -35,7 +35,13 @@ const CommunitySportsContent = () => {
               })}
             </div>
 
-            <div className="mobile-img-container">
+            <div
+              className="mobile-img-container"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-easing="ease-out"
+              data-aos-duration="350"
+            >
               <img src={img8} alt="img1" />
             </div>
           </Col>
@@ -45,7 +51,7 @@ const CommunitySportsContent = () => {
             data-aos="fade-up"
             data-aos-delay="800"
             data-aos-easing="ease-out"
-            data-aos-duration="900"
+            data-aos-duration="700"
           >
             <Container fluid className="com-sports-content-container">
               <div className="com-sports-content">
