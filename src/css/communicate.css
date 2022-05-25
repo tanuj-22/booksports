@@ -26,3 +26,15 @@
     display: block;
     margin: auto;
 }
+@media screen and (max-width:580px) {
+    .communicate-and-lead .communicate-right{
+        text-align: center;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 120%;
+    }
+    .communicate-and-lead .communicate-left{
+        padding-left:10%;
+    }
+    
+}

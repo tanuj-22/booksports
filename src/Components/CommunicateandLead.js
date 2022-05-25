@@ -43,7 +43,6 @@ const CommunicateandLead = () => {
           >
             <p className="communicate-tagline">
               Communicate and lead all-in-one place.
-              <br />
               And it is free.
             </p>
             <img
