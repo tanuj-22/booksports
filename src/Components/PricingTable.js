@@ -18,7 +18,7 @@ const PricingTable = () => {
   };
 
   return (
-    <div className="pricing-table" data-aos="fade-up" data-aos-delay="1200">
+    <div className="pricing-table" data-aos="fade-up" data-aos-delay="200">
       <div className="table-parent">
         <Table responsive>
           <thead>

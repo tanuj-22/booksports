@@ -13,16 +13,16 @@ const BecomeMember = () => {
     <div
       className="become-member"
       data-aos="fade-right"
-      data-aos-delay="400"
-      data-aos-duration="600"
+      data-aos-delay="50"
+      data-aos-duration="400"
       data-aos-easing="ease-in-out"
       data-aos-once="true"
     >
       <p
         className="heading"
         data-aos="fade-right"
-        data-aos-delay="600"
-        data-aos-duration="600"
+        data-aos-delay="100"
+        data-aos-duration="400"
         data-aos-easing="ease-in-out"
         data-aos-once="true"
       >
@@ -31,8 +31,8 @@ const BecomeMember = () => {
       <p
         className="info"
         data-aos="fade-right"
-        data-aos-delay="700"
-        data-aos-duration="600"
+        data-aos-delay="100"
+        data-aos-duration="400"
         data-aos-easing="ease-in-out"
         data-aos-once="true"
       >
@@ -43,8 +43,8 @@ const BecomeMember = () => {
         <div
           className="join-btn-wrapper"
           data-aos="fade-right"
-          data-aos-delay="800"
-          data-aos-duration="600"
+          data-aos-delay="100"
+          data-aos-duration="400"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
         >

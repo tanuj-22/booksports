@@ -25,14 +25,14 @@ const HomePageMainContent = () => {
             Play sport. Simplified.
           </div>
 
-          <div className="smallText" data-aos="fade-up" data-aos-delay="400">
+          <div className="smallText" data-aos="fade-up" data-aos-delay="50">
             Unified solution of participating in sport games and activities.
             Play your favourite games anytime, anywhere with ease.
           </div>
           <div
             className="join-btn-wrapper"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="100"
           >
             <Button
               className="JoinButton"
@@ -53,7 +53,7 @@ const HomePageMainContent = () => {
           </div>
           <div
             data-aos="zoom-in-up"
-            data-aos-delay="500"
+            data-aos-delay="150"
             className="mockup-background-container"
           >
             <div

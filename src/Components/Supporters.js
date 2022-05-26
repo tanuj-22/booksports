@@ -18,13 +18,13 @@ const Supporters = () => {
       className="our-supporters"
       id="feedback"
       data-aos="fade-up"
-      data-aos-delay="200"
+      data-aos-delay="50"
     >
       {/* taglines */}
-      <p className="tagline1" data-aos="fade-up" data-aos-delay="600">
+      <p className="tagline1" data-aos="fade-up" data-aos-delay="100">
         We love our SUPPORTERS
       </p>
-      <p className="tagline2" data-aos="fade-up" data-aos-delay="600">
+      <p className="tagline2" data-aos="fade-up" data-aos-delay="100">
         And they seem to love us
       </p>
       {/* supporter cards */}
@@ -38,7 +38,7 @@ const Supporters = () => {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                         Arcu, elit, a volutpat enim, massa id. Vestibulum faucibus."
                 dataAos="zoom-in"
-                dataAosDelay={1100}
+                dataAosDelay={10}
               />
             </Col>
             <Col sm={12} md={4}>
@@ -48,7 +48,7 @@ const Supporters = () => {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Arcu, elit, a volutpat enim, massa id. Vestibulum faucibus."
                 dataAos="zoom-in"
-                dataAosDelay={1300}
+                dataAosDelay={50}
               />
             </Col>
             <Col sm={12} md={4}>
@@ -58,7 +58,7 @@ const Supporters = () => {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Arcu, elit, a volutpat enim, massa id. Vestibulum faucibus."
                 dataAos="zoom-in"
-                dataAosDelay={1500}
+                dataAosDelay={100}
               />
             </Col>
           </Row>

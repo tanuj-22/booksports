@@ -48,11 +48,11 @@ const SimpleDesign = () => {
   ];
 
   return (
-    <div className="simple-design" data-aos="fade-up" data-aos-delay="200">
-      <p className="tagline-heading" data-aos="fade-up" data-aos-delay="600">
+    <div className="simple-design" data-aos="fade-up" data-aos-delay="50">
+      <p className="tagline-heading" data-aos="fade-up" data-aos-delay="100">
         There is more. Elevate your copy with a simple design.
       </p>
-      <p className="tagline-text" data-aos="fade-up" data-aos-delay="600">
+      <p className="tagline-text" data-aos="fade-up" data-aos-delay="100">
         Bring the excitement of returning to team sports and group activities.
       </p>
 
@@ -68,7 +68,7 @@ const SimpleDesign = () => {
                   title={card.title}
                   text={card.text}
                   dataAos="zoom-in"
-                  dataAosDelay={700 + index * 50}
+                  dataAosDelay={0}
                 />
               );
             })}

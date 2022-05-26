@@ -10,14 +10,14 @@ const Pricing = () => {
   return (
     <div className="pricing-section" id="pricing" data-aos="fade-up">
       <Container>
-        <p className="pricing-tagline" data-aos="fade-up" data-aos-delay="400">
+        <p className="pricing-tagline" data-aos="fade-up" data-aos-delay="100">
           A plan for everyone
         </p>
-        <p className="pricing-heading" data-aos="fade-up" data-aos-delay="600">
+        <p className="pricing-heading" data-aos="fade-up" data-aos-delay="100">
           Pricing
         </p>
         <div className="tab-section">
-          <Container fluid data-aos="fade-up" data-aos-delay="800">
+          <Container fluid data-aos="fade-up" data-aos-delay="200">
             <Row>
               <Col xs={6}>
                 <p className="tab-section-yearly">Yearly</p>
@@ -36,7 +36,7 @@ const Pricing = () => {
               src={savemoney}
               alt=""
               data-aos="fade-down"
-              data-aos-delay="1000"
+              data-aos-delay="500"
             />
           </div>
         </div>

@@ -4,8 +4,7 @@ import Home from "./Pages/Home";
 // import About from "./Pages/About";
 // import Terms from "./Pages/Terms";
 import AOS from "aos";
-import { Suspense,lazy } from "react";
-
+import { Suspense, lazy } from "react";
 
 // const Home = lazy(() => import("./Pages/Home"));
 const About = lazy(() => import("./Pages/About"));
@@ -14,8 +13,9 @@ const Terms = lazy(() => import("./Pages/Terms"));
 // import "aos/dist/aos.css";
 function App() {
   AOS.init({
-    duration: 600,
+    duration: 400,
     easing: "ease-in-out",
+    once: true,
   });
   return (
     <>
