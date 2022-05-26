@@ -2,14 +2,14 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
 import "../css/CommunitySportsContent.css";
-import img1 from "../assests/masonryGrid/33.png";
-import img2 from "../assests/masonryGrid/34.png";
-import img3 from "../assests/masonryGrid/35.png";
-import img4 from "../assests/masonryGrid/36.png";
-import img5 from "../assests/masonryGrid/37.png";
-import img6 from "../assests/masonryGrid/39.png";
-import img7 from "../assests/masonryGrid/41.png";
-import img8 from "../assests/masonryGrid/comm-sport-mobile.png";
+import img1 from "../assests/masonryGrid/33.webp";
+import img2 from "../assests/masonryGrid/34.webp";
+import img3 from "../assests/masonryGrid/35.webp";
+import img4 from "../assests/masonryGrid/36.webp";
+import img5 from "../assests/masonryGrid/37.webp";
+import img6 from "../assests/masonryGrid/39.webp";
+import img7 from "../assests/masonryGrid/41.webp";
+import img8 from "../assests/masonryGrid/comm-sport-mobile.webp";
 const CommunitySportsContent = () => {
   return (
     <div

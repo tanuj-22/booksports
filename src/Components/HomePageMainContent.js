@@ -1,12 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Button } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
-import MobileMockupLeft from "../assests/MobileMockupLeft.png";
-import MobileMockupRight from "../assests/MobileMockupRight.png";
-import MobileMockupIconLeft from "../assests/MobileMockupIconLeft.svg";
-import MobileMockupIconRight from "../assests/MobileMockupIconRight.svg";
 
 import "../css/HomePageMainContent.css";
+
+const MobileMockups = lazy(() => import("./HomeMainContent/MobileMockups"));
+
 const HomePageMainContent = () => {
   const inputRef = useRef(null);
   const [length, setLength] = useState(900);
@@ -52,10 +51,7 @@ const HomePageMainContent = () => {
               />
             </Button>
           </div>
-
           <div
-            aos-init
-            aos-animate
             data-aos="zoom-in-up"
             data-aos-delay="500"
             className="mockup-background-container"
@@ -66,51 +62,10 @@ const HomePageMainContent = () => {
             >
               &nbsp;
             </div>
-            <div className="mobile-mockup-container">
-              <img
-                src={MobileMockupLeft}
-                alt="mobile-mockup"
-                className="mobileMockup"
-                data-aos="fade-right"
-                data-aos-delay="500"
-                data-aos-once="false"
-                data-aos-anchor="#join-waitlist-btn"
-                data-aos-anchor-placement="top-bottom"
-              />
-              <img
-                src={MobileMockupRight}
-                alt="mobile-mockup"
-                className="mobileMockup-1"
-                data-aos="fade-left"
-                data-aos-delay="500"
-                data-aos-once="false"
-                data-aos-anchor="#join-waitlist-btn"
-                data-aos-anchor-placement="top-bottom"
-              />
-            </div>
 
-            <div className="mockup-icons">
-              <img
-                src={MobileMockupIconLeft}
-                className="mockup-icon-left"
-                alt="mobile-mockup"
-                data-aos="fade-right"
-                data-aos-delay="600"
-                data-aos-once="false"
-                data-aos-anchor="#join-waitlist-btn"
-                data-aos-anchor-placement="top-bottom"
-              />
-              <img
-                src={MobileMockupIconRight}
-                className="mockup-icon-right"
-                alt="mobile-mockup"
-                data-aos="fade-left"
-                data-aos-delay="600"
-                data-aos-once="false"
-                data-aos-anchor="#join-waitlist-btn"
-                data-aos-anchor-placement="top-bottom"
-              />
-            </div>
+            <Suspense fallback={<></>}>
+              <MobileMockups />
+            </Suspense>
           </div>
         </div>
       </div>

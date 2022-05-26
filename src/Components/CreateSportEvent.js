@@ -7,7 +7,7 @@ import findsocialgames from "../assests/findsocialgames.svg";
 import makenewfriends from "../assests/makenewfriends.svg";
 import travelandplay from "../assests/travelandplay.svg";
 import anorganiser from "../assests/AnOrganiser.svg";
-import basicInfoMockup from "../assests/basicInfoMockup.png";
+import basicInfoMockup from "../assests/basicInfoMockup.webp";
 
 // import components
 import CreateSportEventInfoCard from "./CreateSportEventInfoCard";
