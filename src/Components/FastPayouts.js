@@ -2,7 +2,7 @@
 import {Container, Row, Col, Button} from 'react-bootstrap';
 // import assets
 import lightningLogo from '../assests/lightningLogo.svg'
-import fastpayouts from '../assests/fastpayouts.png'
+import fastpayouts from '../assests/fastpayouts.webp'
 // import css
 import '../css/fast-payouts.css'
 

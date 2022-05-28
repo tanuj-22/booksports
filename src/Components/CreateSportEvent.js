@@ -7,7 +7,7 @@ import findsocialgames from "../assests/findsocialgames.svg";
 import makenewfriends from "../assests/makenewfriends.svg";
 import travelandplay from "../assests/travelandplay.svg";
 import anorganiser from "../assests/AnOrganiser.svg";
-import basicInfoMockup from "../assests/basicInfoMockup.png";
+import basicInfoMockup from "../assests/basicInfoMockup.webp";
 
 // import components
 import CreateSportEventInfoCard from "./CreateSportEventInfoCard";
@@ -37,20 +37,20 @@ const CreateSportEvent = () => {
   ];
 
   return (
-    <div className="create-sport-event" data-aos="fade-up" data-aos-delay="200">
+    <div className="create-sport-event" data-aos="fade-up" data-aos-delay="50">
       <Container>
         <div className="create-sport-event-taglines">
           <p
             className="create-sport-event-heading"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="100"
           >
             Create sport events with simple steps. Simplicity is key.
           </p>
           <p
             className="create-sport-event-info"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="150"
           >
             Organising or finding casual games shouldnt be a rocket science.
           </p>
@@ -69,7 +69,7 @@ const CreateSportEvent = () => {
                           title={card.title}
                           desc={card.desc}
                           dataAos="zoom-in"
-                          dataAosDelay={700 + index * 50  }
+                          dataAosDelay={150 + index * 50}
                         />
                       );
                     })}
@@ -77,11 +77,11 @@ const CreateSportEvent = () => {
                 </Container>
               </div>
             </Col>
-            <Col md={12} lg={6} order-1 style={{}} >
+            <Col md={12} lg={6} order-1 style={{}}>
               <div
                 className="mockupImageBackgroundContainer"
                 data-aos={"fade-down"}
-                data-aos-delay={"500"}
+                data-aos-delay={"150"}
               >
                 <img
                   src={basicInfoMockup}

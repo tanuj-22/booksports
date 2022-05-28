@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import aboutPhone1 from "../assests/about-phone-1.png";
+import aboutPhone1 from "../assests/about-phone-1.webp";
 import "../css/about.css";
 import AboutPageC1Cards from "./AboutPageC1Cards";
 import networkClock from "../assests/network-icon.svg";
