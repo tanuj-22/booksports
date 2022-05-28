@@ -12,33 +12,15 @@ import instagram from "../assests/instagram.svg";
 
 const FooterHome = () => {
   return (
-    <div
-      className="footer-home"
-      data-aos="fade-up"
-      data-aos-delay="1000"
-      data-aos-once="true"
-    >
+    <div className="footer-home">
       <Container>
         <Row className="footer-row">
-          <Col
-            lg={6}
-            md={12}
-            data-aos="fade-up"
-            data-aos-delay="1200"
-            data-aos-once="true"
-          >
+          <Col lg={6} md={12}>
             <div className="booksportslogo">
               <img src={whitecompanylogo} alt="booksports" />
             </div>
           </Col>
-          <Col
-            lg={6}
-            md={12}
-            className="column-right"
-            data-aos="fade-up"
-            data-aos-delay="1400"
-            data-aos-once="true"
-          >
+          <Col lg={6} md={12} className="column-right">
             Privacy Policy
           </Col>
         </Row>
@@ -48,9 +30,6 @@ const FooterHome = () => {
             lg={{ span: 6, order: 1 }}
             md={{ span: 12, order: 2 }}
             sm={{ span: 12, order: 2 }}
-            data-aos="fade-up"
-            data-aos-delay="1500"
-            data-aos-once="true"
           >
             <p className="copyright-text">
               © 2022 Booksports
@@ -65,9 +44,6 @@ const FooterHome = () => {
             md={{ span: 12, order: 1 }}
             sm={{ span: 12, order: 1 }}
             className="column-right"
-            data-aos="fade-up"
-            data-aos-delay="1700"
-            data-aos-once="true"
           >
             <div className="social-media">
               <img src={twitter} alt="twitter" />

@@ -68,7 +68,7 @@ const SimpleDesign = () => {
                   title={card.title}
                   text={card.text}
                   dataAos="zoom-in"
-                  dataAosDelay={700 + index * 100}
+                  dataAosDelay={700 + index * 50}
                 />
               );
             })}

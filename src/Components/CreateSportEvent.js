@@ -37,13 +37,21 @@ const CreateSportEvent = () => {
   ];
 
   return (
-    <div className="create-sport-event">
+    <div className="create-sport-event" data-aos="fade-up" data-aos-delay="200">
       <Container>
         <div className="create-sport-event-taglines">
-          <p className="create-sport-event-heading">
+          <p
+            className="create-sport-event-heading"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             Create sport events with simple steps. Simplicity is key.
           </p>
-          <p className="create-sport-event-info">
+          <p
+            className="create-sport-event-info"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             Organising or finding casual games shouldnt be a rocket science.
           </p>
         </div>
@@ -54,12 +62,14 @@ const CreateSportEvent = () => {
               <div className="event-info-cards">
                 <Container fluid>
                   <Row>
-                    {cards.map((card) => {
+                    {cards.map((card, index) => {
                       return (
                         <CreateSportEventInfoCard
                           img={card.img}
                           title={card.title}
                           desc={card.desc}
+                          dataAos="zoom-in"
+                          dataAosDelay={700 + index * 50  }
                         />
                       );
                     })}
@@ -67,8 +77,12 @@ const CreateSportEvent = () => {
                 </Container>
               </div>
             </Col>
-            <Col md={12} lg={6} order-1 style={{}}>
-              <div className="mockupImageBackgroundContainer">
+            <Col md={12} lg={6} order-1 style={{}} >
+              <div
+                className="mockupImageBackgroundContainer"
+                data-aos={"fade-down"}
+                data-aos-delay={"500"}
+              >
                 <img
                   src={basicInfoMockup}
                   alt="basic info"
