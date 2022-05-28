@@ -111,11 +111,15 @@
     margin-bottom: 5%;
     width: 70%;
 }
+.pricing-section .pricing-table td, th{
+    font-family: 'Inter', sans-serif;
+}
 .pricing-section .pricing-table .price-per-month{
     font-style: normal;
     font-weight: 500;
     font-size: 42px;
     line-height: 52px;
+    font-family: "ClashGrotesk-Medium", "Space Grotesk", "Roboto", sans-serif !important;
 }
 .pricing-section .pricing-table .info-line-td{
     min-height: 2.25rem;
@@ -123,6 +127,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    font-family: 'Inter', sans-serif;
 }
 .pricing-section .pricing-table .join-button-pricing {
     background-color: #000 !important;

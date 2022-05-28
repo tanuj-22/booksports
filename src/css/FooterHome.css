@@ -4,14 +4,16 @@
     padding-top: 6%;
     padding-bottom: 2%;
     color: white;
+    
 }
 .footer-home .column-right{
     text-align: right;
-
+    font-family: 'Inter', sans-serif;
 }
 .footer-home .copyright-text{
     font-size: 0.95rem;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
 .footer-home .social-media img{
     margin-left: 2.25rem;
