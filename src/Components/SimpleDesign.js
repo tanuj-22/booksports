@@ -22,28 +22,28 @@ const SimpleDesign = () => {
     },
     {
       image: community,
-      title: "Send private messages",
-      text: "Message as a host, enjoy a secure 1-1 conversation. All your communications from one dedicated platform, for free.",
+      title: "Organise your community",
+      text: "Join or set up your groups of friends to share events and stay in touch.",
     },
     {
       image: waitinglist,
-      title: "Send private messages",
-      text: "Message as a host, enjoy a secure 1-1 conversation. All your communications from one dedicated platform, for free.",
+      title: "Waiting list",
+      text: "The waiting list automatically follows dropouts and instantly fills available places with players on the waiting list.",
     },
     {
       image: invitations,
-      title: "Send private messages",
-      text: "Message as a host, enjoy a secure 1-1 conversation. All your communications from one dedicated platform, for free.",
+      title: "Invitations",
+      text: "Invite members to practices, games or other team activities.",
     },
     {
       image: multiplatform,
-      title: "Send private messages",
-      text: "Message as a host, enjoy a secure 1-1 conversation. All your communications from one dedicated platform, for free.",
+      title: "Multi-platform",
+      text: "We will be available on most devices, iOS, Android and Web App.",
     },
     {
       image: rsvp,
-      title: "Send private messages",
-      text: "Message as a host, enjoy a secure 1-1 conversation. All your communications from one dedicated platform, for free.",
+      title: "RSVP",
+      text: "Get invites via SMS, email and push notifications. This helps everyone to receive and respond to events.",
     },
   ];
 

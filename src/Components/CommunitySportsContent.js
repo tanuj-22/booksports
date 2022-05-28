@@ -51,7 +51,7 @@ const CommunitySportsContent = () => {
               <div className="com-sports-content">
                 <h2>The power of community sports.</h2>
                 <p>
-                  The power of community sports. Sport brings people from
+                  Sport brings people from
                   diverse backgrounds together around a common goal, providing a
                   platform for collaboration, friendship development, and an
                   emphasis on similarities rather than differences.
