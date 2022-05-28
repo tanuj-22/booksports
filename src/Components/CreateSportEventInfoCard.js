@@ -11,8 +11,8 @@ const CreateSportEventInfoCard = (props) => {
         data-aos-delay={dataAosDelay}
       >
         <img src={img} alt="" />
-        <p>{title}</p>
-        <p>{desc}</p>
+        <p className="create-sport-event-card-title">{title}</p>
+        <p className="create-sport-event-card-text">{desc}</p>
       </div>
     </Col>
   );
