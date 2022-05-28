@@ -9,6 +9,7 @@ import { Suspense, lazy } from "react";
 // const Home = lazy(() => import("./Pages/Home"));
 const About = lazy(() => import("./Pages/About"));
 const Terms = lazy(() => import("./Pages/Terms"));
+const Privacy = lazy(() => import("./Pages/Privacy"));
 
 // import "aos/dist/aos.css";
 function App() {
@@ -23,19 +24,27 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route
+          {/* <Route
             path="/about"
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <About />
               </Suspense>
             }
-          />
+          /> */}
           <Route
             path="/terms"
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <Terms />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/privacy"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Privacy />
               </Suspense>
             }
           />

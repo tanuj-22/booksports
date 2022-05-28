@@ -1,0 +1,10 @@
+.privacy{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(90deg, #EFECFF 0%, #C4B8FF 100%);
+}
+.privacy .privacy-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

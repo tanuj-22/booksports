@@ -13,8 +13,11 @@ const NavbarLinks = () => {
           <Nav.Link className="px-4 navLink" href="#community">
             Community
           </Nav.Link>
-          <Nav.Link className="px-4 navLink" href="/about">
+          {/* <Nav.Link className="px-4 navLink" href="/about">
             About
+          </Nav.Link> */}
+          <Nav.Link className="px-4 navLink" href="/privacy">
+            Privacy Policy
           </Nav.Link>
           <Nav.Link className="px-4 navLink" href="#feedback">
             Feedback
