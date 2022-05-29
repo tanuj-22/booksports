@@ -61,7 +61,7 @@ const PricingTable = () => {
               </td>
               <td width={"35%"}>
                 <div className="pricing-in-td">
-                  <p className="price-per-month">$15/mo</p>
+                  <p className="price-per-month">$19/mo</p>
                   <p className="info-line-td">
                     Great for everyone who loves to organise sport games and
                     events.
@@ -251,7 +251,7 @@ const PricingTable = () => {
           <p className="">
             <span className="pricing-alternate-heading">Pro</span>
             <br />
-            <span className="pricing-alternate-price">$15/mo</span>
+            <span className="pricing-alternate-price">$19/mo</span>
           </p>
           <hr />
           <p className="pricing-feature">

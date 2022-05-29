@@ -27,6 +27,7 @@ const HomePageMainContent = () => {
 
           <div className="smallText" data-aos="fade-up" data-aos-delay="50">
             Unified solution of participating in sport games and activities.
+            <br/>
             Play your favourite games anytime, anywhere with ease.
           </div>
           <div

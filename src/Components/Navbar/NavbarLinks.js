@@ -16,12 +16,12 @@ const NavbarLinks = () => {
           {/* <Nav.Link className="px-4 navLink" href="/about">
             About
           </Nav.Link> */}
-          <Nav.Link className="px-4 navLink" href="/privacy">
+          {/* <Nav.Link className="px-4 navLink" href="/privacy">
             Privacy Policy
           </Nav.Link>
           <Nav.Link className="px-4 navLink" href="#feedback">
             Feedback
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link className="px-4 navLink" href="#pricing">
             Pricing
           </Nav.Link>
