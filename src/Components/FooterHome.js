@@ -21,7 +21,7 @@ const FooterHome = () => {
             </div>
           </Col>
           <Col lg={6} md={12} className="column-right">
-            Privacy Policy
+            <a href="/privacy">Privacy Policy</a>
           </Col>
         </Row>
         <hr />

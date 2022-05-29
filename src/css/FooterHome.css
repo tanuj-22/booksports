@@ -10,6 +10,10 @@
     text-align: right;
     font-family: 'Inter', sans-serif;
 }
+.footer-home .column-right a{
+    text-decoration: none;
+    color: white;
+}
 .footer-home .copyright-text{
     font-size: 0.95rem;
     font-weight: 400;
