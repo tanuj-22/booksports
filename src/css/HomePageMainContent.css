@@ -31,7 +31,8 @@
 
 .HomeMainContent {
   position: absolute;
-  top: 15%;
+  top: 10%;   
+  /* from 15% */
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;

@@ -18,9 +18,11 @@ const CommunitySportsContent = () => {
       data-aos-anchor=".HomeMainContentBackground"
       data-aos-anchor-placement="top-center"
       data-aos-offset="0"
+      
+      
     >
       <Container className="block-container">
-        <Row className="align-items-center">
+        <Row className="align-items-center" id="community">
           <Col
             className="column-container "
             md={{ span: 6, order: 2 }}
@@ -54,7 +56,7 @@ const CommunitySportsContent = () => {
             data-aos-duration="400"
           >
             <Container fluid className="com-sports-content-container">
-              <div className="com-sports-content">
+              <div className="com-sports-content" >
                 <h2>The power of community sports.</h2>
                 <p>
                   Sport brings people from

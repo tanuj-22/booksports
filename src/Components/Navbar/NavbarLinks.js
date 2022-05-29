@@ -10,7 +10,7 @@ const NavbarLinks = () => {
       </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto navItems ">
-          <Nav.Link className="px-4 navLink" href="#community">
+          <Nav.Link className="px-4 navLink" href="/#community">
             Community
           </Nav.Link>
           {/* <Nav.Link className="px-4 navLink" href="/about">
@@ -22,7 +22,7 @@ const NavbarLinks = () => {
           <Nav.Link className="px-4 navLink" href="#feedback">
             Feedback
           </Nav.Link> */}
-          <Nav.Link className="px-4 navLink" href="#pricing">
+          <Nav.Link className="px-4 navLink" href="/#pricing">
             Pricing
           </Nav.Link>
         </Nav>
