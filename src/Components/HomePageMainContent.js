@@ -27,9 +27,12 @@ const HomePageMainContent = () => {
 
           <div className="smallText" data-aos="fade-up" data-aos-delay="50">
             Unified solution of participating in sport games and activities.
-            <br/>
+            <div className="desktop-screen-break">
+              <br />
+            </div>
             Play your favourite games anytime, anywhere with ease.
           </div>
+          <br />
           <div
             className="join-btn-wrapper"
             data-aos="fade-up"

@@ -43,6 +43,7 @@
   }
   .navBrand {
     transform: translateX(0%) !important;
+    padding-left: 3% !important;
   }
   .navbarMain{
     transform: translateY(0%);
