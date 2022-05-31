@@ -16,6 +16,18 @@ const HomePageMainContent = () => {
     } else if (inputRef && inputRef.current && window.innerWidth > 768) {
       setLength(inputRef.current.getBoundingClientRect().height + 200);
     }
+
+  }, []);
+  const handleResize = () => {
+    if (inputRef && inputRef.current && window.innerWidth <= 768) {
+      setLength(inputRef.current.getBoundingClientRect().height + 100);
+    } else if (inputRef && inputRef.current && window.innerWidth > 768) {
+      setLength(inputRef.current.getBoundingClientRect().height + 200);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize, false);
   }, []);
   return (
     <>
