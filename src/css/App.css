@@ -38,3 +38,12 @@
 .block-container-2 {
   width: 100% !important;
 }
+.block-container-3{
+  width: 83% !important;
+  margin: 0 auto;
+}
+@media screen and (max-width: 560px) {
+  .block-container-3{
+    width: 90% !important;
+  }
+}

@@ -37,8 +37,27 @@ const CreateSportEvent = () => {
   ];
 
   return (
-    <div className="create-sport-event" data-aos="fade-up" data-aos-delay="50">
+    <div
+      className="create-sport-event block-container-3"
+      data-aos="fade-up"
+      data-aos-delay="50"
+    >
       <Container>
+      <Row className="mobileRow">
+          <Col md={12} lg={6} order-1 style={{ paddingRight: 0 }}>
+            <div
+              className="mockupImageBackgroundContainer"
+              data-aos={"fade-down"}
+              data-aos-delay={"150"}
+            >
+              <img
+                src={basicInfoMockup}
+                alt="basic info"
+                className="basicInfoMockupImage"
+              />
+            </div>
+          </Col>
+        </Row>
         <div className="create-sport-event-taglines">
           <p
             className="create-sport-event-heading"
@@ -77,7 +96,7 @@ const CreateSportEvent = () => {
                 </Container>
               </div>
             </Col>
-            <Col md={12} lg={6} order-1 style={{}}>
+            <Col md={12} lg={6} order-1 style={{ paddingRight: 0 }} className="desktopCol">
               <div
                 className="mockupImageBackgroundContainer"
                 data-aos={"fade-down"}

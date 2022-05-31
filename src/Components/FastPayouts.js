@@ -8,7 +8,7 @@ import '../css/fast-payouts.css'
 
 const FastPayouts = () => {
   return (
-    <div className='fast-payouts' data-aos="fade-right">
+    <div className='fast-payouts block-container-3' data-aos="fade-right">
       <Container>
         <Container>
           <Row>

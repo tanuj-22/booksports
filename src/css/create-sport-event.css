@@ -51,10 +51,19 @@
 .mockupImageBackgroundContainer {
   position: relative;
   top: -7%;
-  left: -8%;
+  right:-10%;
 }
+@media screen and (max-width: 992px) {
+  .mockupImageBackgroundContainer {
+    position: relative;
+    top: -7%;
+    left: -8%;
+  }
+}
+  
+
 .basicInfoMockupImage {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 @media screen and (max-width:800px) {
@@ -82,3 +91,19 @@
         width: 95%;
     }
 } 
+.mobileRow{
+  display: none;
+}
+@media screen and (max-width:992px) {
+  .mobileRow{
+    display: block;
+  }
+  .desktopCol{
+    display: none;
+  }
+  .basicInfoMockupImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+

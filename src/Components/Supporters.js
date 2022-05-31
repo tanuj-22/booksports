@@ -15,7 +15,7 @@ import supporter3 from "../assests/supporter03.png";
 const Supporters = () => {
   return (
     <div
-      className="our-supporters"
+      className="our-supporters block-container-3"
       id="feedback"
       data-aos="fade-up"
       data-aos-delay="50"

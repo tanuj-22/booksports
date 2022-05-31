@@ -48,7 +48,7 @@ const SimpleDesign = () => {
   ];
 
   return (
-    <div className="simple-design" data-aos="fade-up" data-aos-delay="50">
+    <div className="simple-design " data-aos="fade-up" data-aos-delay="50">
       <p className="tagline-heading" data-aos="fade-up" data-aos-delay="100">
         There is more. Elevate your copy with a simple design.
       </p>
@@ -58,7 +58,7 @@ const SimpleDesign = () => {
 
       {/* Info Cards */}
 
-      <div className="info-cards">
+      <div className="info-cards block-container-3">
         <Container>
           <Row>
             {cards.map((card, index) => {
