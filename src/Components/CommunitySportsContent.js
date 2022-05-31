@@ -2,14 +2,9 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
 import "../css/CommunitySportsContent.css";
-import img1 from "../assests/masonryGrid/33.webp";
-import img2 from "../assests/masonryGrid/34.webp";
-import img3 from "../assests/masonryGrid/35.webp";
-import img4 from "../assests/masonryGrid/36.webp";
-import img5 from "../assests/masonryGrid/37.webp";
-import img6 from "../assests/masonryGrid/39.webp";
-import img7 from "../assests/masonryGrid/41.webp";
+
 import img8 from "../assests/masonryGrid/comm-sport-mobile.webp";
+import ImageMasonryComponent from "./ImageMasonryComponent";
 const CommunitySportsContent = () => {
   return (
     <div
@@ -31,11 +26,8 @@ const CommunitySportsContent = () => {
             data-aos-easing="ease-out"
             // data-aos-duration="500"
           >
-            <div className="img-container" id="left-container-img">
-              {[img1, img3, img5, img6, img2, img4, img7].map((img, index) => {
-                return <img src={img} key={index} alt={"img" + index} />;
-              })}
-            </div>
+            
+            <ImageMasonryComponent/>
 
             <div
               className="mobile-img-container"
