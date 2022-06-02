@@ -29,7 +29,7 @@ const FooterHome = () => {
           <Col
             lg={{ span: 6, order: 1 }}
             md={{ span: 12, order: 2 }}
-            sm={{ span: 12, order: 2 }}
+            sm={{ span: 12, order: 1 }}
           >
             <p className="copyright-text">
               © 2022 Booksports
@@ -42,7 +42,7 @@ const FooterHome = () => {
           <Col
             lg={{ span: 6, order: 2 }}
             md={{ span: 12, order: 1 }}
-            sm={{ span: 12, order: 1 }}
+            sm={{ span: 12, order: 2 }}
             className="column-right"
           >
             <div className="social-media">

@@ -47,3 +47,9 @@ hr{
     height:1px;
     background: rgba(255, 255, 255, 0.5);
 }
+
+@media (min-width: 300px){
+    .order-sm-2 {
+        order: 2 !important;
+    }
+}
