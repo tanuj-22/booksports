@@ -14,6 +14,26 @@
     padding-top: 10%;
   }
 }
+@media screen and (min-width: 1500px) {
+  .Comm-container > .block-container {
+    padding-top: 11%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .Comm-container > .block-container {
+    padding-top: 12%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .Comm-container > .block-container {
+    padding-top: 13%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .Comm-container > .block-container {
+    padding-top: 14%;
+  }
+}
 @media screen and (min-width: 1920px) {
   .Comm-container > .block-container {
     padding-top: 15%;
