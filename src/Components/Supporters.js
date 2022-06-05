@@ -29,7 +29,7 @@ const Supporters = () => {
       </p>
       {/* supporter cards */}
       <div className="supporters-cards">
-        <Container>
+        <Container fluid>
           <Row>
             <Col sm={12} md={4}>
               <SupporterResponse

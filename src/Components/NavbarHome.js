@@ -9,7 +9,7 @@ const NavbarLinks = lazy(() => import("./Navbar/NavbarLinks"));
 const NavbarHome = ({ ...props }) => {
   return (
     <Navbar className="navbarMain" bg="bg-transparent" expand="lg" {...props}>
-      <Container className="block-container">
+      <Container fluid className="block-container">
         <Navbar.Brand className="navBrand" href="/">
           <Suspense
             // fallback={<h1 style={{ fontSize: "2.25rem" }}>booksports</h1>}

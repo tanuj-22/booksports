@@ -42,7 +42,7 @@ const CreateSportEvent = () => {
       data-aos="fade-up"
       data-aos-delay="50"
     >
-      <Container>
+      <Container fluid>
       <Row className="mobileRow">
           <Col md={12} lg={6} order-1 style={{ paddingRight: 0 }}>
             <div

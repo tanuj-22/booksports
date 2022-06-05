@@ -59,7 +59,7 @@ const SimpleDesign = () => {
       {/* Info Cards */}
 
       <div className="info-cards block-container-3">
-        <Container>
+        <Container fluid>
           <Row>
             {cards.map((card, index) => {
               return (

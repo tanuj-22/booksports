@@ -3,7 +3,7 @@
     padding-top: 5%;
     padding-bottom: 10%;
 }
-.fast-payouts .container{
+.fast-payouts .container-fluid{
     background: linear-gradient(90deg, #EFECFF 0%, #C4B8FF 100%);
 }
 .fast-payouts .stripe-btn{

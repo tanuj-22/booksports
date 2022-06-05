@@ -11,7 +11,7 @@ import messagingside from "../assests/messagingside.webp";
 const CommunicateandLead = () => {
   return (
     <div className="communicate-and-lead block-container-3" data-aos="fade">
-      <Container>
+      <Container fluid>
         <Row>
           <Col
             xs={12}

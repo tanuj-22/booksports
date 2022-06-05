@@ -9,7 +9,7 @@ import savemoney from "../assests/savemoney.svg";
 const Pricing = () => {
   return (
     <div className="pricing-section" id="pricing" data-aos="fade-up">
-      <Container>
+      <Container fluid>
         <p className="pricing-tagline" data-aos="fade-up" data-aos-delay="100">
           A plan for everyone
         </p>
