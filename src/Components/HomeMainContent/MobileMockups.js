@@ -9,7 +9,7 @@ const MobileMockups = () => {
     <>
       <div
         className="mobile-mockup-container"
-        style={{ overflowX: "hidden", height: "150%" }}
+        style={{ overflowX: "hidden", height: "110%" }}
       >
         <img
           src={MobileMockupLeft}
@@ -31,29 +31,28 @@ const MobileMockups = () => {
           data-aos-anchor="#join-waitlist-btn"
           data-aos-anchor-placement="top-bottom"
         />
-      </div>
-
-      <div className="mockup-icons">
-        <img
-          src={MobileMockupIconLeft}
-          className="mockup-icon-left"
-          alt="mobile-mockup"
-          data-aos="fade-right"
-          data-aos-delay="250"
-          data-aos-once="false"
-          data-aos-anchor="#join-waitlist-btn"
-          data-aos-anchor-placement="top-bottom"
-        />
-        <img
-          src={MobileMockupIconRight}
-          className="mockup-icon-right"
-          alt="mobile-mockup"
-          data-aos="fade-left"
-          data-aos-delay="250"
-          data-aos-once="false"
-          data-aos-anchor="#join-waitlist-btn"
-          data-aos-anchor-placement="top-bottom"
-        />
+        <div className="mockup-icons">
+          <img
+            src={MobileMockupIconLeft}
+            className="mockup-icon-left"
+            alt="mobile-mockup"
+            data-aos="fade-right"
+            data-aos-delay="250"
+            data-aos-once="false"
+            data-aos-anchor="#join-waitlist-btn"
+            data-aos-anchor-placement="top-bottom"
+          />
+          <img
+            src={MobileMockupIconRight}
+            className="mockup-icon-right"
+            alt="mobile-mockup"
+            data-aos="fade-left"
+            data-aos-delay="250"
+            data-aos-once="false"
+            data-aos-anchor="#join-waitlist-btn"
+            data-aos-anchor-placement="top-bottom"
+          />
+        </div>
       </div>
     </>
   );

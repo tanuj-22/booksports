@@ -1,4 +1,5 @@
-import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
+// import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
+import React, { lazy, Suspense} from "react";
 import { Button } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
 
@@ -7,32 +8,33 @@ import "../css/HomePageMainContent.css";
 const MobileMockups = lazy(() => import("./HomeMainContent/MobileMockups"));
 
 const HomePageMainContent = () => {
-  const inputRef = useRef(null);
-  const [length, setLength] = useState(900);
+  // const inputRef = useRef(null);
+  // const [length, setLength] = useState(900);
 
-  useEffect(() => {
-    if (inputRef && inputRef.current && window.innerWidth <= 768) {
-      setLength(inputRef.current.getBoundingClientRect().height + 100);
-    } else if (inputRef && inputRef.current && window.innerWidth > 768) {
-      setLength(inputRef.current.getBoundingClientRect().height + 200);
-    }
+  // useEffect(() => {
+  //   if (inputRef && inputRef.current && window.innerWidth <= 768) {
+  //     setLength(inputRef.current.getBoundingClientRect().height + 100);
+  //   } else if (inputRef && inputRef.current && window.innerWidth > 768) {
+  //     setLength(inputRef.current.getBoundingClientRect().height + 200);
+  //   }
 
-  }, []);
-  const handleResize = () => {
-    if (inputRef && inputRef.current && window.innerWidth <= 768) {
-      setLength(inputRef.current.getBoundingClientRect().height + 100);
-    } else if (inputRef && inputRef.current && window.innerWidth > 768) {
-      setLength(inputRef.current.getBoundingClientRect().height + 200);
-    }
-  };
+  // }, []);
+  // const handleResize = () => {
+  //   if (inputRef && inputRef.current && window.innerWidth <= 768) {
+  //     setLength(inputRef.current.getBoundingClientRect().height + 100);
+  //   } else if (inputRef && inputRef.current && window.innerWidth > 768) {
+  //     setLength(inputRef.current.getBoundingClientRect().height + 200);
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener("resize", handleResize, false);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("resize", handleResize, false);
+  // }, []);
   return (
     <>
-      <div className="homePageContents" style={{ height: length }}>
-        <div ref={inputRef} className="HomeMainContent">
+    <div className="homePageContents" style={{ height: "max-content" }}>
+      {/* <div className="homePageContents" style={{ height: length }}> */}
+        <div className="HomeMainContent">
           <div data-aos="fade-up" className="bigText">
             Play sport. Simplified.
           </div>
@@ -77,11 +79,11 @@ const HomePageMainContent = () => {
               className="HomeMainContentBackground"
             >
               &nbsp;
-            </div>
 
             <Suspense fallback={<></>}>
               <MobileMockups />
             </Suspense>
+            </div>
           </div>
         </div>
       </div>

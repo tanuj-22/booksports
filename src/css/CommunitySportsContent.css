@@ -9,7 +9,15 @@
   height: max-content;
   /* background-color: rgba(0, 255, 255, 0.509); */
 }
-@media screen and (min-width: 1400px) {
+.Comm-container > .block-container {
+  padding-top: 10%;
+}
+@media  screen and (max-width : 768px) {
+  .Comm-container > .block-container {
+    padding-top: 0;
+  }
+}
+/* @media screen and (min-width: 1400px) {
   .Comm-container > .block-container {
     padding-top: 10%;
   }
@@ -43,7 +51,7 @@
   .Comm-container > .block-container {
     padding-top: 20%;
   }
-}
+} */
 
 .Comm-container .container {
   width: 80% !important;
