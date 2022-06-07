@@ -30,8 +30,8 @@ const PricingTable = () => {
         <Table responsive>
           <thead>
             <tr>
-              <td>Plans</td>
-              <th>Users</th>
+              <td style={{fontFamily:"ClashGrotesk-Medium"}}>Plans</td>
+              <th style={{fontFamily:"ClashGrotesk-Medium"}}>Users</th>
               <th>Pro</th>
             </tr>
           </thead>
