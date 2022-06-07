@@ -8,13 +8,20 @@ import lightningLogoBlack from "../assests/lightninglogo-black.svg";
 import { useState } from "react";
 
 const PricingTable = () => {
-  const [logo, setLogo] = useState(lightningLogoBlack);
+  const [logo1, setLogo1] = useState(lightningLogoBlack);
+  const [logo2, setLogo2] = useState(lightningLogoBlack);
 
   const hoverOnButton = () => {
-    setLogo(lightningLogo);
+    setLogo1(lightningLogo);
+  };
+  const hoverOnButton2 = () => {
+    setLogo2(lightningLogo);
   };
   const hoverOffButton = () => {
-    setLogo(lightningLogoBlack);
+    setLogo1(lightningLogoBlack);
+  };
+  const hoverOffButton2 = () => {
+    setLogo2(lightningLogoBlack);
   };
 
   return (
@@ -52,7 +59,7 @@ const PricingTable = () => {
                   >
                     <span className="join-btn-text">Join Waitlist</span>
                     <img
-                      src={logo}
+                      src={logo1}
                       alt="lightning-logo"
                       className="lightningLogo"
                     />
@@ -167,8 +174,8 @@ const PricingTable = () => {
               <td></td>
               <td>
                 <Button
-                  onMouseOver={hoverOnButton}
-                  onMouseOut={hoverOffButton}
+                  onMouseOver={hoverOnButton2}
+                  onMouseOut={hoverOffButton2}
                   className="join-button-pricing-outline"
                   id="join-waitlist-btn"
                   variant="outline-dark"
@@ -181,7 +188,7 @@ const PricingTable = () => {
                 >
                   <span className="join-btn-text">Join Waitlist</span>
                   <img
-                    src={logo}
+                    src={logo2}
                     alt="lightning-logo"
                     className="lightningLogo"
                   />
@@ -244,7 +251,7 @@ const PricingTable = () => {
             }}
           >
             <span className="join-btn-text">Join Waitlist</span>
-            <img src={logo} alt="lightning-logo" className="lightningLogo" />
+            <img src={logo1} alt="lightning-logo" className="lightningLogo" />
           </Button>
         </div>
         <div className="pro-pricing">
