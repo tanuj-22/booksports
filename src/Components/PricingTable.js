@@ -31,8 +31,8 @@ const PricingTable = () => {
           <thead>
             <tr>
               <td>Plans</td>
-              <th>Users</th>
-              <th>Pro</th>
+              <th style={{fontFamily:"ClashGrotesk-Medium"}}>Users</th>
+              <th style={{fontFamily:"ClashGrotesk-Medium"}}>Pro</th>
             </tr>
           </thead>
           <tbody>
