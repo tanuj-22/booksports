@@ -144,6 +144,7 @@
     width: 100% !important;
     height: 6vh !important;
     margin-bottom: 1rem !important;
+    border-radius: 12px !important;
 }
 
 .pricing-section .pricing-table .join-button-pricing-outline{
@@ -158,8 +159,10 @@
     width: 100% !important;
     height: 6vh !important;
     margin-bottom: 1rem !important;
-    
+    border-radius: 12px !important;
 }
+
+
 
 
 .pricing-section .pricing-alternate{
@@ -202,12 +205,18 @@
 .pricing-section .pricing-alternate .off-feature{
     opacity: 0.25;
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:1200px) {
     .pricing-section .table-parent{
         display: none;
     }
     .pricing-section .pricing-alternate{
         display: block;
+    }
+    .pricing-section .pricing-table .join-button-pricing{
+        border-radius: 8px !important;
+    }
+    .pricing-section .pricing-table .join-button-pricing-outline{
+        border-radius: 8px !important;
     }
 }
 
