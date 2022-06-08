@@ -76,11 +76,11 @@ const HomePageMainContent = () => {
           <div
             data-aos="zoom-in-up"
             data-aos-delay="150"
-            className="mockup-background-container"
+            className="mockup-background-container block-container-fp"
           >
             <div
               // style={{ height: length.toString() + "vh" }}
-              className="HomeMainContentBackground"
+              className="HomeMainContentBackground "
             >
               &nbsp;
 

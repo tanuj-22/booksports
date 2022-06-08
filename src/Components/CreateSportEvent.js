@@ -7,7 +7,9 @@ import findsocialgames from "../assests/findsocialgames.svg";
 import makenewfriends from "../assests/makenewfriends.svg";
 import travelandplay from "../assests/travelandplay.svg";
 import anorganiser from "../assests/AnOrganiser.svg";
-import basicInfoMockup from "../assests/basicInfoMockup.webp";
+import basicInfoMockupMobile from "../assests/Basic-info-mb-1.webp";
+import basicInfoMockupMobileCR from "../assests/basic-info-mobile-cr.webp";
+import basicInfoMockupMobileCL from "../assests/basic-info-mobile-cl.webp";
 
 // import components
 import CreateSportEventInfoCard from "./CreateSportEventInfoCard";
@@ -42,10 +44,10 @@ const CreateSportEvent = () => {
       data-aos="fade-up"
       data-aos-delay="50"
     >
-      <Container fluid style={{padding:0}}>
-      <Row className="mobileRow">
-          <Col md={12} lg={6} order-1 style={{ paddingRight: 0 }}>
-            <div
+      <Container fluid style={{ padding: 0 }}>
+        <Row className="mobileRow">
+          <Col md={12} lg={6} order-1 className="mobileRowCol">
+            {/* <div
               className="mockupImageBackgroundContainer"
               data-aos={"fade-down"}
               data-aos-delay={"150"}
@@ -55,6 +57,13 @@ const CreateSportEvent = () => {
                 alt="basic info"
                 className="basicInfoMockupImage"
               />
+            </div> */}
+            <div className="purpleBackgroundContainer">
+              <div className="mock-img-box" style={{ position: "relative" }}>
+                <img src={basicInfoMockupMobile} alt="basic info" />
+                <img src={basicInfoMockupMobileCL} alt="basic info" />
+                <img src={basicInfoMockupMobileCR} alt="basic info" />
+              </div>
             </div>
           </Col>
         </Row>
@@ -96,8 +105,14 @@ const CreateSportEvent = () => {
                 </Container>
               </div>
             </Col>
-            <Col md={12} lg={6} order-1 style={{ paddingRight: 0 }} className="desktopCol">
-              <div
+            <Col
+              md={12}
+              lg={6}
+              order-1
+              style={{ paddingRight: 0 }}
+              className="desktopCol"
+            >
+              {/* <div
                 className="mockupImageBackgroundContainer"
                 data-aos={"fade-down"}
                 data-aos-delay={"150"}
@@ -107,6 +122,13 @@ const CreateSportEvent = () => {
                   alt="basic info"
                   className="basicInfoMockupImage"
                 />
+              </div> */}
+              <div className="purpleBackgroundContainer">
+                <div className="mock-img-box" style={{ position: "relative" }}>
+                  <img src={basicInfoMockupMobile} alt="basic info" />
+                  <img src={basicInfoMockupMobileCL} alt="basic info" />
+                  <img src={basicInfoMockupMobileCR} alt="basic info" />
+                </div>
               </div>
             </Col>
           </Row>

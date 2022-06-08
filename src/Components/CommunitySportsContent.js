@@ -16,7 +16,7 @@ const CommunitySportsContent = () => {
       
       
     >
-      <Container className="block-container">
+      <Container fluid className="block-container-fp" style={{paddingLeft:0,paddingRight:0}}>
         <Row className="align-items-center" id="community">
           <Col
             className="column-container "
@@ -24,6 +24,7 @@ const CommunitySportsContent = () => {
             data-aos="fade-down"
             data-aos-delay="50"
             data-aos-easing="ease-out"
+            style={{paddingRight:0}}
             // data-aos-duration="500"
           >
             

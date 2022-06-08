@@ -1,7 +1,15 @@
 * {
   font-family: "ClashGrotesk-Medium", "Space Grotesk", "Roboto", sans-serif;
 }
-
+@media screen and (min-width: 2000px) {
+  *{
+    font-size: 1.7vh;
+  }
+}
+*{
+  font-size: 16px;
+}
+  
 .HomePageContent {
   position: relative;
 }
@@ -13,6 +21,7 @@
   position: absolute;
   top: 0px;
   left: 0;
+  max-height: 900px;
 }
 @media screen and (max-width: 576px) {
   .landingMainContent {
@@ -51,6 +60,7 @@
   width: 80% !important;
   margin-left: auto;
   margin-right: auto;
+  max-width: 2000px;
 }
 @media screen and (max-width: 576px) {
   .block-container-fp {

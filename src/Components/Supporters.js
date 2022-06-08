@@ -15,7 +15,7 @@ import supporter3 from "../assests/supporter03.png";
 const Supporters = () => {
   return (
     <div
-      className="our-supporters block-container-3"
+      className="our-supporters block-container-fp"
       id="feedback"
       data-aos="fade-up"
       data-aos-delay="50"
@@ -29,7 +29,7 @@ const Supporters = () => {
       </p>
       {/* supporter cards */}
       <div className="supporters-cards">
-        <Container fluid>
+        <Container fluid style={{paddingLeft:0,paddingRight:0}}>
           <Row>
             <Col sm={12} md={4}>
               <SupporterResponse
