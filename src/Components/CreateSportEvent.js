@@ -75,7 +75,7 @@ const CreateSportEvent = () => {
           </p>
         </div>
 
-        <Container fluid >
+        <Container fluid className="container-fluid-row-col-container">
           <Row>
             <Col md={12} lg={6}>
               <div className="event-info-cards">

@@ -56,4 +56,8 @@
   .block-container-fp {
     width: 87% !important;
   }
+  .container-fluid-row-col-container{
+    padding: 0 !important;
+  }
 }
+
