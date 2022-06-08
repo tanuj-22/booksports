@@ -35,6 +35,9 @@ const HomePageMainContent = () => {
     <div className="homePageContents" style={{ height: "max-content" }}>
       {/* <div className="homePageContents" style={{ height: length }}> */}
         <div className="HomeMainContent">
+          <div className="block-container-fp">
+
+          
           <div data-aos="fade-up" className="bigText">
             Play sport. Simplified.
           </div>
@@ -44,7 +47,7 @@ const HomePageMainContent = () => {
             <div className="desktop-screen-break">
               <br />
             </div>
-            Play your favourite games anytime, anywhere with ease.
+            &nbsp;Play your favourite games anytime, anywhere with ease.
           </div>
           <br />
           <div
@@ -53,7 +56,7 @@ const HomePageMainContent = () => {
             data-aos-delay="100"
           >
             <Button
-              className="JoinButton"
+              className="JoinButton "
               id="join-waitlist-btn"
               variant="primary"
               size="lg"
@@ -68,6 +71,7 @@ const HomePageMainContent = () => {
                 className="lightningLogo"
               />
             </Button>
+          </div>
           </div>
           <div
             data-aos="zoom-in-up"

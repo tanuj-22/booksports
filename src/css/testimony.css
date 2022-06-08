@@ -17,7 +17,7 @@
 
 .testimony .testimony-mob{
     display: none;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 @media screen and ( max-width : 500px ) {

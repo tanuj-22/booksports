@@ -72,8 +72,10 @@
 }
 @media screen and (max-width:576px) {
     .fast-payouts {
-        padding-left: 4%;
-        padding-right: 4%;
+        /* padding-left: 4%;
+        padding-right: 4%; */
+        padding-left: 0%;
+        padding-right: 0%;
     }
     .fast-payouts .fast-payouts-right img{
         width: 100%;

@@ -6,7 +6,7 @@ import "../css/testimony.css";
 
 const Testimony = () => {
   return (
-    <div className="testimony" data-aos="zoom-in-up">
+    <div className="testimony block-container-fp" data-aos="zoom-in-up">
       <div className="testimony-desktop">
         <img src={testimony} alt="testimony" />
       </div>

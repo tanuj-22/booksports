@@ -12,7 +12,7 @@
 .Comm-container > .block-container {
   padding-top: 10%;
 }
-@media  screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .Comm-container > .block-container {
     padding-top: 0;
   }
@@ -64,6 +64,11 @@
     height: max-content;
     /* top: 34vh; */
   }
+  .Comm-container .container {
+    width: 80% !important;
+    max-width: 80% !important;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -71,6 +76,11 @@
     width: 100%;
     height: max-content;
     /* top: 25vh; */
+  }
+  .Comm-container .container {
+    width: 87% !important;
+    max-width: 87% !important;
+    padding-left: 0;
   }
 }
 .column-container {
@@ -93,7 +103,7 @@
   height: 52px !important;
   border-radius: 12px !important;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .JoinButton2 {
     width: 100% !important;
     position: relative;
@@ -103,8 +113,8 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.com-sports-content-container p{
-  font-family: 'Inter', sans-serif;
+.com-sports-content-container p {
+  font-family: "Inter", sans-serif;
 }
 .com-sports-content {
   padding-top: 30%;
@@ -127,7 +137,7 @@
   font-family: "Inter", sans-serif;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .com-sports-content {
     padding-top: 10px;
     padding-bottom: 10px;

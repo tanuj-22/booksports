@@ -38,11 +38,11 @@ const CreateSportEvent = () => {
 
   return (
     <div
-      className="create-sport-event block-container-3"
+      className="create-sport-event block-container-fp"
       data-aos="fade-up"
       data-aos-delay="50"
     >
-      <Container fluid>
+      <Container fluid style={{padding:0}}>
       <Row className="mobileRow">
           <Col md={12} lg={6} order-1 style={{ paddingRight: 0 }}>
             <div
@@ -75,7 +75,7 @@ const CreateSportEvent = () => {
           </p>
         </div>
 
-        <Container fluid>
+        <Container fluid >
           <Row>
             <Col md={12} lg={6}>
               <div className="event-info-cards">

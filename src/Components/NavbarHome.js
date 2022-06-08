@@ -9,10 +9,10 @@ const NavbarLinks = lazy(() => import("./Navbar/NavbarLinks"));
 const NavbarHome = ({ ...props }) => {
   return (
     <Navbar className="navbarMain" bg="bg-transparent" expand="lg" {...props}>
-      <Container fluid className="block-container">
+      <Container fluid className="navbar-container">
         <Navbar.Brand className="navBrand" href="/">
           <Suspense
-            // fallback={<h1 style={{ fontSize: "2.25rem" }}>booksports</h1>}
+            
             fallback={<img src={BrandLogo} alt="brand-logo" style={{height:"41px"}}/>}
           >
             <NavbarBrand />

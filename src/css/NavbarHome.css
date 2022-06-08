@@ -1,3 +1,14 @@
+
+.navbar-container{
+  width: 80% !important;
+  margin: 0 auto;
+  padding: 0;
+}
+@media screen and (max-width: 576px) {
+  .navbar-container{
+    width: 87% !important;
+  }
+}
 .navItems {
   display: flex;
   justify-content: space-between;
@@ -20,7 +31,7 @@
     /* transform: translateX(30%) !important; */
   }
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 992px) {
   .navItems {
     position: relative;
     transform: translateX(0%);
@@ -43,7 +54,8 @@
   }
   .navBrand {
     transform: translateX(0%) !important;
-    padding-left: 3% !important;
+    /* padding-left: 3% !important; */
+    padding-left: 0% !important;
   }
   .navbarMain{
     transform: translateY(0%);

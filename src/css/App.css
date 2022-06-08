@@ -14,7 +14,7 @@
   top: 0px;
   left: 0;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .landingMainContent {
     min-height: 667px;
     height: 80vh;
@@ -30,7 +30,7 @@
 .block-container {
   width: 80% !important;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .block-container {
     width: 100% !important;
   }
@@ -38,12 +38,22 @@
 .block-container-2 {
   width: 100% !important;
 }
-.block-container-3{
-  width: 83% !important;
+.block-container-3 {
+  width: calc(80% + 1.5rem) !important;
   margin: 0 auto;
 }
-@media screen and (max-width: 560px) {
-  .block-container-3{
-    width: 90% !important;
+@media screen and (max-width: 576px) {
+  .block-container-3 {
+    width: calc(87% + 1.5rem) !important;
+  }
+}
+.block-container-fp {
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 576px) {
+  .block-container-fp {
+    width: 87% !important;
   }
 }
