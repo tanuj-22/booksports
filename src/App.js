@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 // import Terms from "./Pages/Terms";
 import AOS from "aos";
 import { Suspense, lazy } from "react";
-
+import LoaderPage from "./Components/LoaderPage";
 // const Home = lazy(() => import("./Pages/Home"));
 const About = lazy(() => import("./Pages/About"));
 const Terms = lazy(() => import("./Pages/Terms"));
@@ -35,7 +35,7 @@ function App() {
           <Route
             path="/terms"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<LoaderPage/>}>
                 <Terms />
               </Suspense>
             }
@@ -43,7 +43,7 @@ function App() {
           <Route
             path="/privacy"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<LoaderPage/>}>
                 <Privacy />
               </Suspense>
             }

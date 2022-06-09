@@ -99,8 +99,8 @@
   outline: 0 !important;
   box-shadow: none !important;
   border-radius: 0px !important;
-  width: 178px !important;
-  height: 52px !important;
+  width: 11.25rem !important;
+  height: 3.25rem !important;
   border-radius: 12px !important;
 }
 @media screen and (max-width: 576px) {
@@ -112,27 +112,33 @@
 .com-sports-content-container {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .com-sports-content-container p {
   font-family: "Inter", sans-serif;
 }
 .com-sports-content {
-  padding-top: 30%;
-  padding-bottom: 35%;
+  /* padding-top: 30%;
+  padding-bottom: 35%; */
 }
 .com-sports-content h2 {
   font-weight: 500;
   font-size: 3.12rem;
   line-height: 3.85rem;
-  max-width: 460px;
-  padding-bottom: 32px;
+  max-width: 28.75rem;
+  /* padding-bottom: 32px; */
+  margin-bottom: 2rem;
   text-align: start;
 }
 .com-sports-content p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
-  padding-bottom: 48px;
+  /* padding-bottom: 48px; */
+  margin-bottom: 2.25rem;
   text-align: start;
   font-family: "Inter", sans-serif;
 }
@@ -147,13 +153,17 @@
     font-size: 1.625rem;
     line-height: 1.95rem;
     max-width: 327px;
-    padding-bottom: 27px;
+    /* padding-bottom: 27px; */
+    margin-bottom: 1.6875rem;
+    padding-bottom: 0;
   }
   .com-sports-content p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 400;
-    padding-bottom: 29px;
+    /* padding-bottom: 29px; */
+    padding-bottom: 0;
+    margin-bottom: 1.8125rem;
   }
 }
 .img-container {
@@ -186,7 +196,7 @@
 @media screen and (max-width: 768px) {
   .mobile-img-container {
     display: block;
-    margin: 15% 0;
+    margin: 2px 0 38px ;
     width: 100%;
   }
   .mobile-img-container img {

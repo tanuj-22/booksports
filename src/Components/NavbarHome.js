@@ -13,7 +13,7 @@ const NavbarHome = ({ ...props }) => {
         <Navbar.Brand className="navBrand" href="/">
           <Suspense
             
-            fallback={<img src={BrandLogo} alt="brand-logo" style={{height:"41px"}}/>}
+            fallback={<img src={BrandLogo} className="navBrandLogoB" alt="brand-logo" style={{height:"41px"}}/>}
           >
             <NavbarBrand />
           </Suspense>

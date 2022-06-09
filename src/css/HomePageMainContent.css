@@ -95,8 +95,8 @@
   /* height: 6vh !important; */
   margin-bottom: 1rem !important;
   border-radius: 12px !important;
-  width: 178px !important;
-  height: 52px !important;
+  /* width: 178px !important; */
+  height: 3.25rem !important;
 }
 .desktop-screen-break {
   height: 0;

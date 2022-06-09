@@ -12,7 +12,7 @@
 // import CommunitySportsContent from "../Components/CommunitySportsContent";
 import HomePageMainContent from "../Components/HomePageMainContent";
 import { lazy, Suspense } from "react";
-
+import Loader from "../Components/Loader";
 const NavbarHome = lazy(() => import("../Components/NavbarHome"));
 const CommunitySportsContent = lazy(() =>
   import("../Components/CommunitySportsContent")
@@ -31,16 +31,17 @@ const FastPayouts = lazy(() => import("../Components/FastPayouts"));
 const Home = () => {
   return (
     <>
-      <div className="HomePageContent">
-        <div className="landingMainContent">&nbsp;</div>
-        <NavbarHome
-          data-aos="fade-down-right"
-          data-aos-easing="ease-out"
-          data-aos-duration="400"
-        />
-        <HomePageMainContent />
-      </div>
-      {/* <CommunitySportsContent />
+      <div className="d-grid WholePageGrid">
+        <div className="HomePageContent">
+          <div className="landingMainContent">&nbsp;</div>
+          <NavbarHome
+            data-aos="fade-down-right"
+            data-aos-easing="ease-out"
+            data-aos-duration="400"
+          />
+          <HomePageMainContent />
+        </div>
+        {/* <CommunitySportsContent />
       <CreateSportEvent />
       <SimpleDesign />
       <CommunicateandLead />
@@ -50,24 +51,27 @@ const Home = () => {
       <Testimony />
       <BecomeMember />
       <FooterHome /> */}
-      {[
-        <CommunitySportsContent />,
-        <CreateSportEvent />,
-        <SimpleDesign />,
-        <CommunicateandLead />,
-        <FastPayouts />,
-        <Supporters />,
-        <Pricing />,
-        <Testimony />,
-        <BecomeMember />,
-        <FooterHome />,
-      ].map((component, index) => {
-        return (
-          <Suspense fallback={<div>Loading...</div>} key={index}>
-            {component}
-          </Suspense>
-        );
-      })}
+        {[
+          <CommunitySportsContent />,
+          <CreateSportEvent />,
+          <SimpleDesign />,
+          <CommunicateandLead />,
+          <FastPayouts />,
+          <Supporters />,
+          <Pricing />,
+          <Testimony />,
+          <>
+            <BecomeMember />
+            <FooterHome />
+          </>,
+        ].map((component, index) => {
+          return (
+            <Suspense fallback={<Loader />} key={index}>
+              <div>{component}</div>
+            </Suspense>
+          );
+        })}
+      </div>
     </>
   );
 };

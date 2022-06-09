@@ -5,7 +5,7 @@ const NavbarBrand = () => {
   return (
     <>
       <img
-        className="img-fluid"
+        className="img-fluid navBrandLogoB"
         src={logo}
         alt="booksports-logo"
         style={{ height: "41px" }}
