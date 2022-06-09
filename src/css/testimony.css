@@ -1,5 +1,6 @@
 .testimony{
     margin-bottom: 6.25%;
+    margin-top: 6.25%;
 }
 .testimony img{
     width: 100%;
@@ -35,7 +36,10 @@
     }
     .testimony .testimony-mob{
         display: block;
-        margin-bottom: 20%;
+    }
+    .testimony{
+        margin-bottom: 26.5%;
+        margin-top: 26.5%;
     }
     
 }
