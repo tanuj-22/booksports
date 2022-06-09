@@ -22,7 +22,7 @@
 .footer-home .social-media img{
     margin-left: 2.25rem;
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     .footer-home{
         text-align: center;
     }
@@ -43,13 +43,19 @@
     
 }
 
+@media screen and (max-width:991px) {
+    .footer-home .booksportslogo img{
+        height: 34px;
+    }
+}
+
 hr{
     height:1px;
     background: rgba(255, 255, 255, 0.5);
 }
 
-@media (min-width: 300px){
-    .order-sm-2 {
-        order: 2 !important;
+@media (max-width: 768px){
+    .order-md-1 {
+        order: 1 !important;
     }
 }

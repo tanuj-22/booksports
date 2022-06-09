@@ -7,13 +7,18 @@
   position: relative;
 }
 .become-member .heading {
-  width: 64%;
+  width: 70%;
   margin: auto;
   padding-left: 10%;
   padding-right: 10%;
   font-weight: 500;
   font-size: 3.16rem;
   line-height: 120%;
+}
+@media screen and (max-width :1165px) {
+  .become-member .heading {
+    width: 75%;
+  }
 }
 .become-member .info {
   font-weight: 400;
