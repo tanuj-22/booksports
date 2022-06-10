@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 const CreateSportEventInfoCard = (props) => {
   let { img, title, desc, dataAos, dataAosDelay } = props;
   return (
-    <Col lg={6} md={12}>
+    <Col lg={6} md={6} sm={12}>
       <div
         className="create-sport-event-card"
         data-aos={dataAos}

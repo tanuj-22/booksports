@@ -172,7 +172,26 @@
   width: 90%;
   height: 100%;
 }
-@media screen and (max-width: 800px) {
+
+.mobileRow {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .mobileRow {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .desktopCol {
+    display: none;
+  }
+  .basicInfoMockupImage {
+    width: 100%;
+    height: 100%;
+  }
+  .create-sport-event .event-info-cards {
+    margin-top: 4%;
+  }
   .create-sport-event .create-sport-event-taglines {
     width: 80%;
     margin: auto;
@@ -198,22 +217,5 @@
   }
   .create-sport-event .create-sport-event-taglines .create-sport-event-heading {
     margin-bottom: 7.5%;
-  }
-}
-.mobileRow {
-  display: none;
-}
-@media screen and (max-width: 992px) {
-  .mobileRow {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .desktopCol {
-    display: none;
-  }
-  .basicInfoMockupImage {
-    width: 100%;
-    height: 100%;
   }
 }
