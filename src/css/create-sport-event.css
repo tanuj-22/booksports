@@ -1,6 +1,4 @@
-.create-sport-event {
-  padding-top: 10%;
-}
+
 .create-sport-event .create-sport-event-taglines {
   width: 60%;
   color: #000000;
@@ -9,6 +7,7 @@
   font-weight: 500;
   font-size: 50px;
   line-height: 62px;
+  margin-bottom: 2.75%;
 }
 .create-sport-event .create-sport-event-taglines .create-sport-event-info {
   font-weight: 400;
@@ -16,9 +15,10 @@
   line-height: 150%;
   color: #000000;
   font-family: "Inter", sans-serif;
+  margin-bottom: 0;
 }
 .create-sport-event .event-info-cards {
-  margin-top: 20%;
+  margin-top: 17.5%;
 }
 .create-sport-event .event-info-cards .container-fluid {
   padding: 0;
@@ -29,11 +29,11 @@
 }
 
 .create-sport-event .event-info-cards .create-sport-event-card {
-  padding-right: 15%;
-  padding-bottom: 10%;
+  padding-right: 11%;
+  padding-bottom: 13%;
 }
 .create-sport-event .event-info-cards .create-sport-event-card img {
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 .create-sport-event .create-sport-event-card .create-sport-event-card-title {
   font-weight: 500;
