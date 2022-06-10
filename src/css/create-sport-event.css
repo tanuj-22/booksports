@@ -122,7 +122,7 @@
   .mobileRowCol {
     padding-left: 0;
     padding-right: 0;
-    margin: 30% 0px 24%;
+    margin: 12% 0px calc(11% + 48px);
   }
   .purpleBackgroundContainer {
     background: linear-gradient(90deg, #efecff 0%, #c4b8ff 100%);
