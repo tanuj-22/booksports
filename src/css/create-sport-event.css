@@ -205,7 +205,7 @@
   }
 
   .create-sport-event .event-info-cards .create-sport-event-card {
-    padding: 5% 2.5%;
+    padding: 5% 3.25%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -217,5 +217,12 @@
   }
   .create-sport-event .create-sport-event-taglines .create-sport-event-heading {
     margin-bottom: 7.5%;
+  }
+  .create-sport-event .create-sport-event-card .create-sport-event-card-title{
+    font-size:1rem;
+  }
+  .create-sport-event .create-sport-event-card .create-sport-event-card-text{
+    font-size: 0.875rem;
+    margin-bottom: 0;
   }
 }
