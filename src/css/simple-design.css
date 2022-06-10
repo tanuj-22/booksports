@@ -39,6 +39,10 @@
     margin:auto;
     margin-bottom: 11.5%;
 }
+.simple-design .info-cards .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .simple-design .info-card .info-card-title{
     font-style: normal;
@@ -57,7 +61,10 @@
     color: #000000;
     font-family: 'Inter', sans-serif;
 }
-@media screen and (max-width:740px) {
+/* @media screen and (max-width:992px) {
+    
+} */
+@media screen and (max-width:992px) {
     .simple-design .tagline-heading{
         width: 70%;
     }
@@ -69,7 +76,7 @@
         width:70%;
     }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .simple-design .info-cards .info-card{
         width:100%;
         margin-bottom: 9.5%;
