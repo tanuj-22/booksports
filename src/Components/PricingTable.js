@@ -7,7 +7,7 @@ import lightningLogoBlack from "../assests/lightninglogo-black.svg";
 // import libs
 import { useState } from "react";
 
-const PricingTable = () => {
+const PricingTable = (props) => {
   const [logo1, setLogo1] = useState(lightningLogoBlack);
   const [logo2, setLogo2] = useState(lightningLogoBlack);
 
@@ -68,7 +68,7 @@ const PricingTable = () => {
               </td>
               <td width={"35%"}>
                 <div className="pricing-in-td">
-                  <p className="price-per-month">$19/mo</p>
+                  <p className="price-per-month">${props.price}/mo</p>
                   <p className="info-line-td">
                     Great for everyone who loves to organise sport games and
                     events.
@@ -258,7 +258,7 @@ const PricingTable = () => {
           <p className="">
             <span className="pricing-alternate-heading">Pro</span>
             <br />
-            <span className="pricing-alternate-price">$19/mo</span>
+            <span className="pricing-alternate-price">${props.price}/mo</span>
           </p>
           <hr />
           <p className="pricing-feature">

@@ -1,6 +1,8 @@
 // import components
 import PricingTable from "./PricingTable";
 import { Container, Row, Col } from "react-bootstrap";
+import {Tabs, Tab} from 'react-bootstrap'
+
 // import css
 import "../css/pricing.css";
 // import assets
@@ -18,29 +20,32 @@ const Pricing = () => {
           Pricing
         </p>
         <div className="tab-section">
-          <Container fluid data-aos="fade-up" data-aos-delay="200">
-            <Row>
-              <Col xs={6}>
-                <p className="tab-section-yearly">Yearly</p>
-              </Col>
-              <Col xs={6}>
-                <p className="tab-section-monthly">Monthly</p>
-              </Col>
-            </Row>
-          </Container>
+          <div className="saveMoneyContainer save-money">
+            <div className="">
+              <img
+                src={savemoney}
+                alt=""
+                data-aos="fade-down"
+                data-aos-delay="500"
+              />
+            </div>
+          </div>
+          <Tabs defaultActiveKey="monthly" id="uncontrolled-tab-example" className="mb-3">
+              <Tab eventKey="monthly" title="Monthly">
+                <PricingTable 
+                  price={19}
+                />
+              </Tab>
+              <Tab eventKey="yearly" title="Yearly">
+                <PricingTable
+                  price={15}
+                />
+              </Tab>
+          </Tabs>
         </div>
 
-        <div className="saveMoneyContainer save-money">
-          <div className="">
-            <img
-              src={savemoney}
-              alt=""
-              data-aos="fade-down"
-              data-aos-delay="500"
-            />
-          </div>
-        </div>
-        <PricingTable />
+        
+        
       </Container>
     </div>
   );
