@@ -1,6 +1,6 @@
 // import components
 import PricingTable from "./PricingTable";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import {Tabs, Tab} from 'react-bootstrap'
 
 // import css
