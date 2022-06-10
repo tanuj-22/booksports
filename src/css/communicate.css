@@ -21,20 +21,46 @@
     line-height: 62px;
     color: #000000;
 }
+.communicate-and-lead .communicate-right .communicate-tagline{
+    margin-bottom: 9.5%;
+}
 .communicate-and-lead .communicate-right img{
     width: 80%;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+
 }
-@media screen and (max-width:580px) {
+.communicate-and-lead .messaging-side-mob{
+    display: none;
+}
+@media screen and (max-width : 991px) {
+    .communicate-and-lead .messaging-side-desktop{
+        display: none;
+    }
+    .communicate-and-lead .messaging-side-mob{
+        display: block;
+    }
+    .communicate-and-lead .communicate-left{
+        padding-left:10%;
+    }
+    .communicate-and-lead .communicate-left img{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:576px) {
     .communicate-and-lead .communicate-right{
         text-align: center;
         font-weight: 500;
         font-size: 32px;
         line-height: 120%;
     }
-    .communicate-and-lead .communicate-left{
-        padding-left:10%;
-    }
     
+    
+    .communicate-and-lead .communicate-left img{
+        width: 100%;
+    }
 }

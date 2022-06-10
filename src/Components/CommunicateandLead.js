@@ -7,6 +7,7 @@ import "../css/communicate.css";
 // import assets
 import socialmediacircle from "../assests/socialmediacircle.svg";
 import messagingside from "../assests/messagingside.webp";
+import messagingsidemob from '../assests/messaginsidemobile.svg';
 
 const CommunicateandLead = () => {
   return (
@@ -14,8 +15,8 @@ const CommunicateandLead = () => {
       <Container fluid style={{padding:0}}>
         <Row>
           <Col
-            xs={12}
-            md={6}
+            md={12}
+            lg={6}
             className="communicate-left"
             data-aos="fade-up"
             data-aos-delay="50"
@@ -24,15 +25,23 @@ const CommunicateandLead = () => {
             data-aos-anchor=".simple-design"
             data-aos-anchor-placement="bottom-center"
           >
-            <img
-              src={messagingside}
-              alt="messaging-side"
-              className="messaging-side"
+            <div className="messaging-side-desktop">
+              <img
+                src={messagingside}
+                alt="messaging-side"
+              />
+            </div>
+            <div className="messaging-side-mob">
+              <img
+                src={messagingsidemob}
+                alt="messaging-side"
             />
+            </div>
+            
           </Col>
           <Col
-            xs={12}
-            md={6}
+            md={12}
+            lg={6}
             className="communicate-right"
             data-aos="fade-up"
             data-aos-delay="100"
