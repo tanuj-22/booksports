@@ -1,17 +1,16 @@
-
 .create-sport-event .create-sport-event-taglines {
   width: 60%;
   color: #000000;
 }
 .create-sport-event .create-sport-event-taglines .create-sport-event-heading {
   font-weight: 500;
-  font-size: 50px;
-  line-height: 62px;
+  font-size: 3.125rem;
+  line-height: 3.875rem;
   margin-bottom: 2.75%;
 }
 .create-sport-event .create-sport-event-taglines .create-sport-event-info {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 150%;
   color: #000000;
   font-family: "Inter", sans-serif;
@@ -37,13 +36,13 @@
 }
 .create-sport-event .create-sport-event-card .create-sport-event-card-title {
   font-weight: 500;
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 1.3125rem;
+  line-height: 1.625rem;
   color: #000000;
 }
 .create-sport-event .create-sport-event-card .create-sport-event-card-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   color: #000000;
   font-family: "Inter", sans-serif;
@@ -54,17 +53,16 @@
   width: 81.8%;
   max-width: 100%;
   aspect-ratio: 1/1;
-  margin-right:0 ;
+  margin-right: 0;
   margin-left: auto;
 }
 .mock-img-box {
   position: relative;
-  
 }
 .mock-img-box img:nth-of-type(1) {
   position: absolute;
   width: 75%;
-  
+
   left: 51%;
   transform: translate(-50%, -11%);
 }
@@ -199,7 +197,7 @@
   }
   .create-sport-event .create-sport-event-taglines .create-sport-event-heading {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 120%;
     color: #000000;
   }
@@ -218,11 +216,11 @@
   .create-sport-event .create-sport-event-taglines .create-sport-event-heading {
     margin-bottom: 7.5%;
   }
-  .create-sport-event .create-sport-event-card .create-sport-event-card-title{
-    font-size:1rem;
+  .create-sport-event .create-sport-event-card .create-sport-event-card-title {
+    font-size: 1.3125rem;
   }
-  .create-sport-event .create-sport-event-card .create-sport-event-card-text{
-    font-size: 0.875rem;
+  .create-sport-event .create-sport-event-card .create-sport-event-card-text {
+    font-size: 1rem;
     margin-bottom: 0;
   }
 }
