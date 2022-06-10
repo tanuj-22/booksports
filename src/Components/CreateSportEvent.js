@@ -47,17 +47,6 @@ const CreateSportEvent = () => {
       <Container fluid style={{ padding: 0 }}>
         <Row className="mobileRow">
           <Col md={12} lg={6} order-1 className="mobileRowCol">
-            {/* <div
-              className="mockupImageBackgroundContainer"
-              data-aos={"fade-down"}
-              data-aos-delay={"150"}
-            >
-              <img
-                src={basicInfoMockup}
-                alt="basic info"
-                className="basicInfoMockupImage"
-              />
-            </div> */}
             <div className="purpleBackgroundContainer">
               <div className="mock-img-box" style={{ position: "relative" }}>
                 <img src={basicInfoMockupMobile} alt="basic info" />
