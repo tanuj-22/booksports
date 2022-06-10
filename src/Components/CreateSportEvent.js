@@ -11,6 +11,7 @@ import travelandplay from "../assests/travelandplay.svg";
 import anorganiser from "../assests/AnOrganiser.svg";
 import anorganiser2 from "../assests/anorganiser2.svg";
 import basicInfoMockupMobile from "../assests/Basic-info-mb-1.webp";
+import basicInfoMockupMobile2 from "../assests/Basic-info-mb-4.webp";
 import basicInfoMockupMobileCR from "../assests/basic-info-mobile-cr.webp";
 import basicInfoMockupMobileCL from "../assests/basic-info-mobile-cl.webp";
 
@@ -66,7 +67,7 @@ const CreateSportEvent = () => {
           <Col md={12} lg={6} order-1 className="mobileRowCol">
             <div className="purpleBackgroundContainer">
               <div className="mock-img-box" style={{ position: "relative" }}>
-                <img src={basicInfoMockupMobile} alt="basic info" />
+                <img src={basicInfoMockupMobile2} alt="basic info" />
                 <img src={basicInfoMockupMobileCL} alt="basic info" />
                 <img src={basicInfoMockupMobileCR} alt="basic info" />
               </div>
@@ -115,7 +116,7 @@ const CreateSportEvent = () => {
               md={12}
               lg={6}
               order-1
-              style={{ paddingRight: 0, marginTop: 0, marginBottom: 0 }}
+              style={{ paddingRight: 0, marginTop: "0", marginBottom: "4%" }}
               className="desktopCol"
             >
               {/* <div
