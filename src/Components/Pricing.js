@@ -30,7 +30,7 @@ const Pricing = () => {
               />
             </div>
           </div>
-          <Tabs defaultActiveKey="monthly" id="uncontrolled-tab-example" className="mb-3">
+          <Tabs defaultActiveKey="monthly" id="uncontrolled-tab-example">
               <Tab eventKey="monthly" title="Monthly">
                 <PricingTable 
                   price={19}

@@ -260,6 +260,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0.25px;
+    border: none !important;
 }
 .tab-section .nav-tabs .nav-item{
     width: 46%;
