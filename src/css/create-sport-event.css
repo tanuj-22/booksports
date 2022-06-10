@@ -191,14 +191,14 @@
     margin-top: 4%;
   }
   .create-sport-event .create-sport-event-taglines {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
   }
   .create-sport-event .create-sport-event-taglines .create-sport-event-heading {
     font-weight: 500;
-    font-size: 2rem;
-    line-height: 120%;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
     color: #000000;
   }
 
