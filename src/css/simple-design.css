@@ -69,25 +69,36 @@
         width:70%;
     }
 }
-@media screen and (max-width:500px) {
-    .simple-design .tagline-heading{
-        width: 80%;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 120%;
-        text-align: center;
-        color: #000000;
-    }
-    .simple-design .tagline-text{
-        width: 80%;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 150%;
-        text-align: center;
-        margin-bottom: 10%;
-        color: #000000;
-    }
+@media screen and (max-width:576px) {
     .simple-design .info-cards .info-card{
         width:90%;
+    }
+    .simple-design .info-cards .info-card{
+        width: 90%;
+        margin-bottom: 9.5%;
+    }    
+    .simple-design .info-cards .info-card .info-card-title{
+        font-weight: 500;
+        font-size: 1.37rem;
+        line-height: 26px;
+    }
+    .simple-design .info-cards .info-card .info-card-text{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+    }
+    .simple-design .tagline-heading{
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 120%;
+        width: 100%;
+        margin-bottom: 7%;
+    }.simple-design .tagline-text{
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 150%;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 9%;
     }
 }
