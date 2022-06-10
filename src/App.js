@@ -32,18 +32,18 @@ function App() {
               </Suspense>
             }
           /> */}
-          <Route
+          {/* <Route
             path="/terms"
             element={
               <Suspense fallback={<LoaderPage/>}>
                 <Terms />
               </Suspense>
             }
-          />
+          /> */}
           <Route
             path="/privacy"
             element={
-              <Suspense fallback={<LoaderPage/>}>
+              <Suspense fallback={<LoaderPage />}>
                 <Privacy />
               </Suspense>
             }
