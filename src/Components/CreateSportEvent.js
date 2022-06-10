@@ -31,24 +31,34 @@ const CreateSportEvent = () => {
 
   const cards = [
     {
-      img: findsocialgames,
-      img2: findsocialgames2,
-      title: "Find social games",
-      desc: "Match with like-minded people in all sports today. You don’t need to message 100+ peeps to play.",
-    },
-    {
+      cardOrderSM: 1,
+      cardOrderMD: 2,
       img: makenewfriends,
       img2: makenewfriends,
       title: "Make new friends",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
+      cardOrderSM: 2,
+      cardOrderMD: 1,
+      img: findsocialgames,
+      img2: findsocialgames2,
+      title: "Find social games",
+      desc: "Match with like-minded people in all sports today. You don’t need to message 100+ peeps to play.",
+    },
+
+    {
+      cardOrderSM: 3,
+      cardOrderMD: 3,
+
       img: travelandplay,
       img2: travelandplay,
       title: "Travel & play",
       desc: "Keep playing while you travel, finding casual games to participate would not be an issue.",
     },
     {
+      cardOrderSM: 4,
+      cardOrderMD: 4,
       img: anorganiser,
       img2: anorganiser2,
       title: "Be an Organiser",
@@ -105,6 +115,8 @@ const CreateSportEvent = () => {
                           desc={card.desc}
                           dataAos="zoom-in"
                           dataAosDelay={150 + index * 50}
+                          cardOrderSM={card.cardOrderSM}
+                          cardOrderMD={card.cardOrderMD}
                         />
                       );
                     })}
