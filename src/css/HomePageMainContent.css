@@ -3,6 +3,7 @@
   font-weight: 500;
   font-size: 3.5rem !important;
   color: #000;
+  line-height: 4.305rem;
 }
 .homePageContents {
   /* position: relative; */
@@ -38,21 +39,22 @@
   /* transform: translate(-50%, 0%); */
   width: 100%;
 }
-@media screen and (min-width:1400px) {
-  .HomeMainContent{
+@media screen and (min-width: 1400px) {
+  .HomeMainContent {
     margin-top: 134px;
   }
 }
 
 .smallText {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   width: max-content;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   font-family: "Inter", sans-serif;
+  color: #000;
 }
 
 @media screen and (max-width: 992px) {
@@ -67,6 +69,10 @@
 @media screen and (max-width: 768px) {
   .smallText {
     width: 100%;
+  }
+  .bigText {
+    line-height: 2.92125rem;
+    font-size: 2.375rem !important;
   }
 
   .HomeMainContent {

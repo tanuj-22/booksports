@@ -2,28 +2,40 @@
   font-family: "ClashGrotesk-Medium", "Space Grotesk", "Roboto", sans-serif;
 }
 @media screen and (min-width: 2000px) {
-  html{
+  html {
     font-size: 24px !important;
   }
-  .landingMainContent{
+  .landingMainContent {
     max-height: 1600px;
   }
-  .navBrandLogoB{
+  .navBrandLogoB {
     height: 2.5vh !important;
   }
 }
-html{
+@media screen and (max-width: 576px) {
+  .navBrandLogoB {
+    height: 28px !important;
+    width: auto !important;
+  }
+}
+html {
   font-size: 16px;
 }
-.WholePageGrid{
+.WholePageGrid {
   gap: 5.625rem;
-}  
+}
 .HomePageContent {
   position: relative;
 }
-@media screen and (max-width:2000px) {
-  .landingMainContent{
+@media screen and (max-width: 2000px) {
+  .landingMainContent {
+    max-height: 100vh;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .landingMainContent {
     max-height: 900px;
+    height: 100vh;
   }
 }
 
@@ -37,16 +49,16 @@ html{
   left: 0;
   /* max-height: 900px; */
 }
-@media screen and (max-width: 576px) {
-  .landingMainContent {
-    min-height: 667px;
-    height: 80vh;
-  }
-}
 @media screen and (max-width: 960px) {
   .landingMainContent {
     min-height: 667px;
-    height: 80vh;
+    height: 61vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .landingMainContent {
+    min-height: 598px;
+    height: 60vh;
   }
 }
 
@@ -80,8 +92,7 @@ html{
   .block-container-fp {
     width: 87% !important;
   }
-  .container-fluid-row-col-container{
+  .container-fluid-row-col-container {
     padding: 0 !important;
   }
 }
-
