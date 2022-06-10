@@ -41,16 +41,7 @@ const Home = () => {
           />
           <HomePageMainContent />
         </div>
-        {/* <CommunitySportsContent />
-      <CreateSportEvent />
-      <SimpleDesign />
-      <CommunicateandLead />
-      <FastPayouts />
-      <Supporters />
-      <Pricing />
-      <Testimony />
-      <BecomeMember />
-      <FooterHome /> */}
+        
         {[
           <CommunitySportsContent />,
           <CreateSportEvent />,
@@ -58,12 +49,8 @@ const Home = () => {
           <CommunicateandLead />,
           <FastPayouts />,
           <Supporters />,
-          <Pricing />,
-          <Testimony />,
-          <>
-            <BecomeMember />
-            <FooterHome />
-          </>,
+          <Pricing />
+          
         ].map((component, index) => {
           return (
             <Suspense fallback={<Loader />} key={index}>
@@ -71,7 +58,11 @@ const Home = () => {
             </Suspense>
           );
         })}
+        
       </div>
+      <Testimony />
+      <BecomeMember />
+      <FooterHome />
     </>
   );
 };
