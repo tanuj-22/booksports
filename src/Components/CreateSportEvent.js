@@ -115,7 +115,7 @@ const CreateSportEvent = () => {
               md={12}
               lg={6}
               order-1
-              style={{ paddingRight: 0 }}
+              style={{ paddingRight: 0, marginTop: 0, marginBottom: 0 }}
               className="desktopCol"
             >
               {/* <div
