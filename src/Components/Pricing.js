@@ -30,7 +30,6 @@ const Pricing = () => {
           </Container>
         </div>
 
-        {/* vector */}
         <div className="saveMoneyContainer save-money">
           <div className="">
             <img
