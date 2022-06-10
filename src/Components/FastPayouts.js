@@ -24,7 +24,7 @@ const FastPayouts = () => {
       <Container fluid style={{ padding: 0 }}>
         <Container fluid style={{ padding: 0 }}>
           <Row>
-            <Col md={12} lg={6}>
+            <Col md={12} lg={6} className="fast-payouts-left-container">
               <div className="fast-payouts-left">
                 <button className="stripe-btn">Stripe</button>
                 <br />

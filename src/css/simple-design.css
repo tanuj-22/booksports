@@ -7,8 +7,8 @@
     margin: auto;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 62px;
+    font-size: 3.125rem;
+    line-height: 3.875rem;
     color: #000000;
 }
 .simple-design .tagline-text{
@@ -18,7 +18,7 @@
     margin-top: 1.75%;
     margin-bottom: 0;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     line-height: 150%;
     text-align: center;
@@ -47,15 +47,15 @@
 .simple-design .info-card .info-card-title{
     font-style: normal;
     font-weight: 500;
-    font-size: 21px;
-    line-height: 26px;
+    font-size: 1.3125rem;
+    line-height: 1.625rem;
     text-align: center;
     color: #000000;
 }
 .simple-design .info-card .info-card-text{
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-align: center;
     color: #000000;
@@ -84,7 +84,7 @@
     .simple-design .info-cards .info-card .info-card-title{
         font-weight: 500;
         font-size: 1.37rem;
-        line-height: 26px;
+        line-height: 1.625rem;
     }
     .simple-design .info-cards .info-card .info-card-text{
         font-weight: 400;

@@ -11,9 +11,9 @@
   border-radius: 104px;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 0.6px;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0375rem;
   text-transform: uppercase;
   color: #ffffff;
   padding: 8px 24px;
@@ -40,14 +40,14 @@
 .fast-payouts .fast-payouts-heading {
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
-  line-height: 62px;
+  font-size: 3.125rem;
+  line-height: 3.875rem;
   color: #000000;
 }
 .fast-payouts .fast-payouts-info {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   margin-bottom: 5%;
   font-family: "Inter", sans-serif;
@@ -95,7 +95,7 @@
   .fast-payouts .fast-payouts-heading {
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 120%;
     color: #000000;
   }
@@ -104,5 +104,14 @@
   }
   .fast-payouts .JoinButton {
     width: 100% !important;
+  }
+}
+@media screen and (min-width: 993px) {
+  .fast-payouts-left {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .fast-payouts-left-container {
+    display: flex;
   }
 }
