@@ -31,7 +31,7 @@ const Supporters = () => {
       <div className="supporters-cards">
         <Container fluid style={{paddingLeft:0,paddingRight:0}}>
           <Row>
-            <Col sm={12} md={4}>
+            <Col lg={4} md={12}>
               <SupporterResponse
                 img={supporter1}
                 intro="Xi Chen, CEO, Fortune Auslink"
@@ -41,7 +41,7 @@ const Supporters = () => {
                 dataAosDelay={10}
               />
             </Col>
-            <Col sm={12} md={4}>
+            <Col lg={4} md={12}>
               <SupporterResponse
                 img={supporter2}
                 intro="Cameron Williamson, CEO, Stripe"
@@ -51,7 +51,7 @@ const Supporters = () => {
                 dataAosDelay={50}
               />
             </Col>
-            <Col sm={12} md={4}>
+            <Col lg={4} md={12}>
               <SupporterResponse
                 img={supporter3}
                 intro="Cameron Williamson, CEO, Stripe"
