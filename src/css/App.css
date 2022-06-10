@@ -3,7 +3,7 @@
 }
 @media screen and (min-width: 2000px) {
   html{
-    font-size: 1.7vh !important;
+    font-size: 18px !important;
   }
   .landingMainContent{
     max-height: 1600px;
@@ -74,7 +74,7 @@ html{
   width: 80% !important;
   margin-left: auto;
   margin-right: auto;
-  max-width: 2000px;
+  max-width: 1920px;
 }
 @media screen and (max-width: 576px) {
   .block-container-fp {
