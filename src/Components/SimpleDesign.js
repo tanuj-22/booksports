@@ -9,7 +9,7 @@ import InfoCard from "./InfoCard";
 import messaging from "../assests/messaging.svg";
 import community from "../assests/community.svg";
 import invitations from "../assests/invitations.svg";
-import multiplatform from "../assests/messaging.svg";
+import multiplatform from "../assests/multiplatform.svg";
 import rsvp from "../assests/rsvp.svg";
 import waitinglist from "../assests/waitinglist.svg";
 
