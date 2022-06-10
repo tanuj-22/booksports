@@ -120,7 +120,7 @@
   .mobileRowCol {
     padding-left: 0;
     padding-right: 0;
-    margin: 12% 0px calc(11% + 48px);
+    margin: calc(12% + 26px) 0px calc(9.8% + 48px);
   }
   .purpleBackgroundContainer {
     background: linear-gradient(90deg, #efecff 0%, #c4b8ff 100%);
@@ -228,5 +228,5 @@
   }
   .create-sport-event .event-info-cards .create-sport-event-card img {
     margin-bottom: 16px;
-}
+  }
 }

@@ -64,7 +64,7 @@ const HomePageMainContent = () => {
                 window.open("https://airtable.com/shr34G4Am3wHWmyJq", "_blank");
               }}
             >
-              <span className="join-btn-text">Join Waitlist</span>
+              <span className="join-btn-text">Join waitlist</span>
               <img
                 src={lightningLogo}
                 alt="lightning-logo"

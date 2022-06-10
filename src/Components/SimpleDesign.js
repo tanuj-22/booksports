@@ -4,60 +4,43 @@ import "../css/simple-design.css";
 
 // import card
 import InfoCard from "./InfoCard";
-import { useState, useEffect } from "react";
 
 // import assets
-import messaging from "../assests/messaging.svg";
+
 import messaging2 from "../assests/messaging2.svg";
 import community from "../assests/community.svg";
 import invitations from "../assests/invitations.svg";
-import multiplatform from "../assests/multiplatform.svg";
 import multiplatform2 from "../assests/multiplatform2.svg";
 import rsvp from "../assests/rsvp.svg";
-import waitinglist from "../assests/waitinglist.svg";
 import waitinglist2 from "../assests/waitinglist2.svg";
 
 const SimpleDesign = () => {
-
-  const [isdesktop, setDesktop] = useState(true);
-
-  useEffect(() => {
-    if (window && window.innerWidth < 768) {
-      setDesktop(false);
-    } else {
-      setDesktop(true);
-    }
-  }, []);
-
-
   const cards = [
     {
-      image: messaging,
-      image2: messaging2,
+      image: messaging2,
+
       title: "Send private messages",
       text: "Message as a host, enjoy a secure 1-1 conversation. All your communications from one dedicated platform, for free.",
     },
     {
       image: community,
-      image2: community,
+
       title: "Organise your community",
       text: "Join or set up your groups of friends to share events and stay in touch.",
     },
     {
-      image: waitinglist,
-      image2: waitinglist2,
+      image: waitinglist2,
+
       title: "Waiting list",
       text: "The waiting list automatically follows dropouts and instantly fills available places with players on the waiting list.",
     },
     {
       image: invitations,
-      image2: invitations,
       title: "Invitations",
       text: "Invite members to practices, games or other team activities.",
     },
     {
-      image: multiplatform,
-      image2: multiplatform2,
+      image: multiplatform2,
       title: "Multi-platform",
       text: "We will be available on most devices, iOS, Android and Web App.",
     },
@@ -70,7 +53,11 @@ const SimpleDesign = () => {
   ];
 
   return (
-    <div className="simple-design block-container-fp" data-aos="fade-up" data-aos-delay="50">
+    <div
+      className="simple-design block-container-fp"
+      data-aos="fade-up"
+      data-aos-delay="50"
+    >
       <p className="tagline-heading" data-aos="fade-up" data-aos-delay="100">
         There is more. Elevate your copy with a simple design.
       </p>
@@ -86,7 +73,7 @@ const SimpleDesign = () => {
             {cards.map((card, index) => {
               return (
                 <InfoCard
-                  image={isdesktop ? card.image2 : card.image} 
+                  image={card.image}
                   title={card.title}
                   text={card.text}
                   dataAos="zoom-in"

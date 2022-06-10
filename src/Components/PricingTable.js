@@ -57,7 +57,7 @@ const PricingTable = (props) => {
                       );
                     }}
                   >
-                    <span className="join-btn-text">Join Waitlist</span>
+                    <span className="join-btn-text">Join waitlist</span>
                     <img
                       src={logo1}
                       alt="lightning-logo"
@@ -84,7 +84,7 @@ const PricingTable = (props) => {
                       );
                     }}
                   >
-                    <span className="join-btn-text">Join Waitlist</span>
+                    <span className="join-btn-text">Join waitlist</span>
                     <img
                       src={lightningLogo}
                       alt="lightning-logo"
@@ -186,7 +186,7 @@ const PricingTable = (props) => {
                     );
                   }}
                 >
-                  <span className="join-btn-text">Join Waitlist</span>
+                  <span className="join-btn-text">Join waitlist</span>
                   <img
                     src={logo2}
                     alt="lightning-logo"
@@ -206,7 +206,7 @@ const PricingTable = (props) => {
                     );
                   }}
                 >
-                  <span className="join-btn-text">Join Waitlist</span>
+                  <span className="join-btn-text">Join waitlist</span>
                   <img
                     src={lightningLogo}
                     alt="lightning-logo"
@@ -250,7 +250,7 @@ const PricingTable = (props) => {
               window.open("https://airtable.com/shr34G4Am3wHWmyJq", "_blank");
             }}
           >
-            <span className="join-btn-text">Join Waitlist</span>
+            <span className="join-btn-text">Join waitlist</span>
             <img src={logo1} alt="lightning-logo" className="lightningLogo" />
           </Button>
         </div>
@@ -283,7 +283,7 @@ const PricingTable = (props) => {
               window.open("https://airtable.com/shr34G4Am3wHWmyJq", "_blank");
             }}
           >
-            <span className="join-btn-text">Join Waitlist</span>
+            <span className="join-btn-text">Join waitlist</span>
             <img
               src={lightningLogo}
               alt="lightning-logo"

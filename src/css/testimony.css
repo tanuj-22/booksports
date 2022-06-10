@@ -30,6 +30,9 @@
     width: 100%;
     margin: auto;
 }
+.testimony .testimony-mob img{
+    border-radius: 8px;
+}
 @media screen and ( max-width : 576px ) {
     .testimony .testimony-desktop{
         display: none;

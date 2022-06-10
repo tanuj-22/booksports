@@ -68,7 +68,7 @@ const CommunitySportsContent = () => {
                     );
                   }}
                 >
-                  <span className="join-btn-text">Join Waitlist</span>
+                  <span className="join-btn-text">Join waitlist</span>
                   <img
                     src={lightningLogo}
                     alt="lightning-logo"

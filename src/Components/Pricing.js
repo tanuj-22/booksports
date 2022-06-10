@@ -30,15 +30,15 @@ const Pricing = () => {
               />
             </div>
           </div>
-          <Tabs defaultActiveKey="monthly" id="uncontrolled-tab-example">
-              <Tab eventKey="monthly" title="Monthly">
+          <Tabs defaultActiveKey="yearly" id="uncontrolled-tab-example">
+              <Tab eventKey="yearly" title="Yearly">
                 <PricingTable 
-                  price={19}
+                  price={15}
                 />
               </Tab>
-              <Tab eventKey="yearly" title="Yearly">
+              <Tab eventKey="monthly" title="Monthly">
                 <PricingTable
-                  price={15}
+                  price={19}
                 />
               </Tab>
           </Tabs>

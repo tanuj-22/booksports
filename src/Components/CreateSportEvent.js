@@ -4,14 +4,13 @@ import { Container, Row, Col } from "react-bootstrap";
 // import css
 import "../css/create-sport-event.css";
 // import assets
-import findsocialgames from "../assests/findsocialgames.svg";
+
 import findsocialgames2 from "../assests/findsocialgames2.svg";
 import makenewfriends from "../assests/makenewfriends.svg";
 import travelandplay from "../assests/travelandplay.svg";
-import anorganiser from "../assests/AnOrganiser.svg";
+
 import anorganiser2 from "../assests/anorganiser2.svg";
 import basicInfoMockupMobile from "../assests/Basic-info-mb-1.webp";
-import basicInfoMockupMobile2 from "../assests/Basic-info-mb-4.webp";
 import basicInfoMockupMobileCR from "../assests/basic-info-mobile-cr.webp";
 import basicInfoMockupMobileCL from "../assests/basic-info-mobile-cl.webp";
 
@@ -19,30 +18,18 @@ import basicInfoMockupMobileCL from "../assests/basic-info-mobile-cl.webp";
 import CreateSportEventInfoCard from "./CreateSportEventInfoCard";
 
 const CreateSportEvent = () => {
-  const [isdesktop, setDesktop] = useState(true);
-
-  useEffect(() => {
-    if (window && window.innerWidth < 768) {
-      setDesktop(false);
-    } else {
-      setDesktop(true);
-    }
-  }, []);
-
   const cards = [
     {
       cardOrderSM: 1,
       cardOrderMD: 2,
       img: makenewfriends,
-      img2: makenewfriends,
       title: "Make new friends",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       cardOrderSM: 2,
       cardOrderMD: 1,
-      img: findsocialgames,
-      img2: findsocialgames2,
+      img: findsocialgames2,
       title: "Find social games",
       desc: "Match with like-minded people in all sports today. You don’t need to message 100+ peeps to play.",
     },
@@ -52,15 +39,13 @@ const CreateSportEvent = () => {
       cardOrderMD: 3,
 
       img: travelandplay,
-      img2: travelandplay,
       title: "Travel & play",
       desc: "Keep playing while you travel, finding casual games to participate would not be an issue.",
     },
     {
       cardOrderSM: 4,
       cardOrderMD: 4,
-      img: anorganiser,
-      img2: anorganiser2,
+      img: anorganiser2,
       title: "Be an Organiser",
       desc: "Love organising sport games? Dream to turn a hobby into a business? We got your back.",
     },
@@ -77,7 +62,7 @@ const CreateSportEvent = () => {
           <Col md={12} lg={6} order-1 className="mobileRowCol">
             <div className="purpleBackgroundContainer">
               <div className="mock-img-box" style={{ position: "relative" }}>
-                <img src={basicInfoMockupMobile2} alt="basic info" />
+                <img src={basicInfoMockupMobile} alt="basic info" />
                 <img src={basicInfoMockupMobileCL} alt="basic info" />
                 <img src={basicInfoMockupMobileCR} alt="basic info" />
               </div>
@@ -110,7 +95,7 @@ const CreateSportEvent = () => {
                     {cards.map((card, index) => {
                       return (
                         <CreateSportEventInfoCard
-                          img={isdesktop ? card.img2 : card.img}
+                          img={card.img}
                           title={card.title}
                           desc={card.desc}
                           dataAos="zoom-in"
