@@ -2,16 +2,11 @@
     display: block;
     background: #7B61FF;
     padding-top: 6%;
-    padding-bottom: 2%;
+    padding-bottom: 2.75%;
     color: white;
     
 }
-@media screen and (max-width : 576px) {
-    .footer-home{
-        padding-top: 10.5%;
-        padding-bottom: 9.5%;
-    }
-}
+
 .footer-home .column-right{
     text-align: right;
     font-family: 'Inter', sans-serif;
@@ -24,6 +19,7 @@
     font-size: 0.95rem;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 0;
 }
 .footer-home .social-media img{
     margin-left: 2.25rem;
@@ -55,13 +51,33 @@
     }
 }
 
-hr{
+.footer-home hr{
     height:1px;
     background: rgba(255, 255, 255, 0.5);
+    margin-top: 2%;
 }
 
 @media (max-width: 768px){
     .order-md-1 {
         order: 1 !important;
+    }
+}
+@media screen and (max-width : 576px) {
+    .footer-home{
+        padding-top: 10.5%;
+        padding-bottom: 9.5%;
+    }
+    .footer-home .booksportslogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8%;
+    }
+    .footer-home hr{
+        margin-top: 8%;
+        margin-bottom: 4.5%;
+    }
+    .footer-home .copyright-text{
+        margin-top: 4%;
     }
 }
