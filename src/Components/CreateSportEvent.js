@@ -99,7 +99,7 @@ const CreateSportEvent = () => {
                           title={card.title}
                           desc={card.desc}
                           dataAos="zoom-in"
-                          dataAosDelay={150 + index * 50}
+                          dataAosDelay={150}
                           cardOrderSM={card.cardOrderSM}
                           cardOrderMD={card.cardOrderMD}
                         />

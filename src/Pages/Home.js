@@ -41,7 +41,7 @@ const Home = () => {
           />
           <HomePageMainContent />
         </div>
-        
+
         {[
           <CommunitySportsContent />,
           <CreateSportEvent />,
@@ -49,8 +49,7 @@ const Home = () => {
           <CommunicateandLead />,
           <FastPayouts />,
           <Supporters />,
-          <Pricing />
-          
+          <Pricing />,
         ].map((component, index) => {
           return (
             <Suspense fallback={<Loader />} key={index}>
@@ -58,11 +57,16 @@ const Home = () => {
             </Suspense>
           );
         })}
-        
       </div>
-      <Testimony />
-      <BecomeMember />
-      <FooterHome />
+      <Suspense>
+        <Testimony />
+      </Suspense>
+      <Suspense>
+        <BecomeMember />
+      </Suspense>
+      <Suspense>
+        <FooterHome />
+      </Suspense>
     </>
   );
 };

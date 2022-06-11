@@ -26,7 +26,7 @@ const Pricing = () => {
                 src={savemoney}
                 alt=""
                 data-aos="fade-down"
-                data-aos-delay="500"
+                data-aos-delay="400"
               />
             </div>
           </div>

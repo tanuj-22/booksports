@@ -4,6 +4,7 @@ import { Button } from "react-bootstrap";
 import lightningLogo from "../assests/lightningLogo.svg";
 
 import "../css/HomePageMainContent.css";
+import Loader from "./Loader";
 
 const MobileMockups = lazy(() => import("./HomeMainContent/MobileMockups"));
 
@@ -84,7 +85,7 @@ const HomePageMainContent = () => {
             >
               &nbsp;
 
-            <Suspense fallback={<></>}>
+            <Suspense fallback={<><Loader/></>}>
               <MobileMockups />
             </Suspense>
             </div>
