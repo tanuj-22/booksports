@@ -1,0 +1,123 @@
+.fast-payouts {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.fast-payouts .container-fluid {
+  background: linear-gradient(90deg, #efecff 0%, #c4b8ff 100%);
+}
+.fast-payouts .stripe-btn {
+  border: none;
+  background: #7b61ff;
+  border-radius: 104px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0375rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 8px 24px;
+  margin-bottom: 24px;
+}
+.fast-payouts .fast-payouts-left {
+  padding-left: 19%;
+  padding-right: 25%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.fast-payouts .JoinButton {
+  position: unset;
+  transform: none !important;
+  left: unset !important;
+  margin-top: 1.5%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.fast-payouts .fast-payouts-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.125rem;
+  line-height: 3.875rem;
+  color: #000000;
+}
+.fast-payouts .fast-payouts-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+}
+.fast-payouts .fast-payouts-right img {
+  display: block;
+  margin: auto;
+  width: 61%;
+  transform: scale(1.25);
+}
+@media screen and (max-width: 1440px) {
+  .fast-payouts .fast-payouts-right img {
+    width: 76%;
+    height: auto;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .fast-payouts .fast-payouts-right img {
+    width: 90%;
+    height: auto;
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .fast-payouts .fast-payouts-right img {
+    transform: none;
+  }
+  .fast-payouts {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .fast-payouts .fast-payouts-left {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-top: 12.9%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .fast-payouts {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .fast-payouts .fast-payouts-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #000000;
+  }
+  .fast-payouts .fast-payouts-right img {
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+  }
+  .fast-payouts .JoinButton {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 993px) {
+  .fast-payouts-left {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .fast-payouts-left-container {
+    display: flex;
+  }
+  .fast-payouts-heading {
+    margin-bottom: 1.5rem;
+  }
+}

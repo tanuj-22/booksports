@@ -1,0 +1,48 @@
+.testimony{
+    margin-bottom: 6.25%;
+    margin-top: 6.25%;
+}
+.testimony img{
+    width: 100%;
+}
+.testimony .testimony-desktop{
+    width: 65.5%;
+    margin: auto;
+    
+}
+.testimony .testimony-desktop img{
+    border-radius: 12px;
+}
+
+@media screen and (max-width : 1200px) {
+    .testimony .testimony-desktop{
+        width: 75%;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .testimony .testimony-desktop{
+        width: 90%;
+    }
+}
+
+.testimony .testimony-mob{
+    display: none;
+    width: 100%;
+    margin: auto;
+}
+.testimony .testimony-mob img{
+    border-radius: 8px;
+}
+@media screen and ( max-width : 576px ) {
+    .testimony .testimony-desktop{
+        display: none;
+    }
+    .testimony .testimony-mob{
+        display: block;
+    }
+    .testimony{
+        margin-bottom: 26.5%;
+        margin-top: 26.5%;
+    }
+    
+}

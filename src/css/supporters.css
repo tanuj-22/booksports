@@ -1,59 +1,121 @@
-.our-supporters{
-    background:white;
-    padding-top: 10%;
-    padding-bottom: 8%;
+.our-supporters {
+  background: white;
 }
 
-.our-supporters .tagline1{
+.our-supporters .tagline1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  color: #7b61ff;
+  margin-bottom: 1.75%;
+}
+
+.our-supporters .tagline2 {
+  font-weight: 500;
+  font-size: 3.125rem;
+  line-height: 3.875rem;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 4%;
+}
+.our-supporters .supporter-response-card {
+  padding: 1.25rem;
+  background: #faf9ff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+.our-supporters .supporter-response-card .container-fluid {
+  padding: 0.5rem;
+}
+.our-supporters .supporter-response-card .description {
+  min-height: 80px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.our-supporters .supporter-response-card .intro {
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  color: #000000;
+  opacity: 0.5;
+}
+.our-supporters .supporter-response-card .supporter-info {
+  padding-left: 2%;
+}
+.our-supporters .supporter-response-card .col-10 {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+@media screen and (max-width: 1400px) {
+  .our-supporters .supporter-response-card .supporter-info {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .our-supporters .supporter-response-card .supporter-info {
+    padding-left: 6%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .our-supporters .supporter-response-card .supporter-info {
+    padding-left: 2%;
+  }
+  .our-supporters .supporter-response-card img {
+    width: 100%;
+  }
+  .our-supporters .supporter-response-card .description {
+    min-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our-supporters .supporter-response-card .supporter-info {
+    padding-left: 2%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-supporters .tagline1 {
     font-weight: 500;
     font-size: 1rem;
-    line-height: 20px;
+    line-height: 1.3125rem;
     text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #7B61FF;
-}
-.our-supporters .tagline2{
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 62px;
+    letter-spacing: 0.025rem;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  .our-supporters .tagline2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
     text-align: center;
-    color: #000000;
-}
-.our-supporters .supporter-response-card{
-    padding: 1.5rem;
-    background: #FAF9FF;
-    margin-bottom: 2%;
-}
-@media screen and (max-width:1400px) {
-    .our-supporters .supporter-response-card{
-        padding: 1rem !important;
-    }
-    .our-supporters .supporter-response-card .supporter-info{
-        padding-left: 10px;
-    }
-}
-@media screen and (max-width:1200px) {
-    .our-supporters .supporter-response-card{
-        padding: 0.5rem 0 !important;
-    }
-}
-.our-supporters .supporter-response-card .container-fluid{
-    padding: 0.5rem;
-}
-.our-supporters .supporter-response-card .description{
+    margin-bottom: 17px;
+  }
+  .our-supporters .supporter-response-card img {
+    width: unset;
+  }
+  .our-supporters .supporter-response-card .container-fluid {
+    padding: 0;
+  }
+  .our-supporters .supporter-response-card .description {
     min-height: 80px;
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 17px;
-    color: #000000;
-}
-
-.our-supporters .supporter-response-card .intro{
-    margin-top: 0.5rem;
-    font-weight: 400;
-    font-size: 0.8125rem;
-    line-height: 17px;
-    color: #000000;
-    opacity: 0.5;
+  }
+  .our-supporters .col-md-12 {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+  }
 }

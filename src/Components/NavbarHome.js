@@ -1,34 +1,26 @@
-import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../assests/logo.svg";
-import NavbarToggler from "../assests/NavbarToggler.svg";
+import React, { lazy, Suspense } from "react";
+import { Container, Navbar } from "react-bootstrap";
+
 import "../css/NavbarHome.css";
-const NavbarHome = () => {
+import BrandLogo from "../assests/BrandLogo.png";
+const NavbarBrand = lazy(() => import("./Navbar/NavbarBrandLogo"));
+const NavbarLinks = lazy(() => import("./Navbar/NavbarLinks"));
+
+const NavbarHome = ({ ...props }) => {
   return (
-    <Navbar className="navbarMain" bg="bg-transparent" expand="lg">
-      <Container className="block-container">
+    <Navbar className="navbarMain" bg="bg-transparent" expand="lg" {...props}>
+      <Container fluid className="navbar-container block-container-fp">
         <Navbar.Brand className="navBrand" href="/">
-          <img className="img-fluid" src={logo} alt="booksports-logo" />
+          <Suspense
+            
+            fallback={<img src={BrandLogo} className="navBrandLogoB" alt="brand-logo" style={{height:"41px"}}/>}
+          >
+            <NavbarBrand />
+          </Suspense>
         </Navbar.Brand>
-        <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav">
-          <img src={NavbarToggler} alt="navbar-toggler" />
-        </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto navItems ">
-            <Nav.Link className="px-4 navLink" href="#community">
-              Community
-            </Nav.Link>
-            <Nav.Link className="px-4 navLink" href="/about">
-              About
-            </Nav.Link>
-            <Nav.Link className="px-4 navLink" href="#feedback">
-              Feedback
-            </Nav.Link>
-            <Nav.Link className="px-4 navLink" href="#pricing">
-              Pricing
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Suspense fallback={<></>}>
+          <NavbarLinks />
+        </Suspense>
       </Container>
     </Navbar>
   );
