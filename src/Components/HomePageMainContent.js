@@ -40,7 +40,7 @@ const HomePageMainContent = () => {
 
           
           <div data-aos="fade-up" className="bigText">
-            Play sport. Simplified.
+            Play sport. Simplified.D
           </div>
 
           <div className="smallText" data-aos="fade-up" data-aos-delay="50">
